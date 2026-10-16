@@ -1,0 +1,15 @@
+@media screen and (min-width: 1441px) {
+    section {
+        padding: 0px max(120px, calc(50% - 720px));
+    }
+    .guide {
+        padding: 0px max(120px, calc(50% - 720px));
+    }
+
+    header {
+        padding: 0px max(120px, calc(50% - 720px));
+    }
+    footer {
+        padding: 0px max(120px, calc(50% - 720px));
+    }
+}

@@ -4,12 +4,17 @@
     scroll-behavior: smooth;
 }
 
-header {
+.header-background {
     background-color: rgba(78, 164, 135, 1);
+    width: 100%;
+}
+
+header {
     display: flex;
     gap: 102px;
     height: 128px;
     align-items: center;
+    padding-left: 120px;
 }
 
 header > img {
