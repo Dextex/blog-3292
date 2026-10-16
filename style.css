@@ -35,14 +35,25 @@ nav li {
 
 footer {
     display: flex;
-    gap: 102px;
+    justify-content: space-between;
     height: 152px;
     align-items: center;
     padding-left: 120px;
     padding-right: 120px;
+    color: white;
+    font-size: 16px;
 }
 
 .footer-background {
     background-color: rgba(78, 164, 135, 1);
     width: 100%;
+}
+
+.more-information {
+    display: flex;
+    gap: 72px;
+}
+.copyright-container {
+    display: flex;
+    gap: 4px;
 }
