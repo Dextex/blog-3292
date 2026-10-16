@@ -3,3 +3,15 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+header {
+    background-color: rgba(78, 164, 135, 1);
+    display: flex;
+    gap: 102px;
+}
+
+header li {
+    font-size: 24px;
+    color: rgba(248, 245, 235, 1);
+    list-style-type: none;
+}
