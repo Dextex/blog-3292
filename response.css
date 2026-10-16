@@ -14,11 +14,72 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     nav {
         display: none;
     }
     header {
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        display: none;
+    }
+    header {
+        justify-content: center;
+    }
+    footer {
+        height: 134px;
+        padding: 30px 24px 30px 24px;
+        align-items: flex-end;
+    }
+    .more-information {
+        flex-direction: column-reverse;
+
+        gap: 8px;
+    }
+
+    .sozial-container {
+        gap: 16px;
+    }
+
+    .copyright-logo {
+        width: 16px;
+        height: 16px;
+    }
+
+    .tiktok-logo {
+        width: 24px;
+        height: 24px;
+    }
+
+    .facebook-logo {
+        width: 24px;
+        height: 24px;
+    }
+
+    .youtube-logo {
+        width: 32px;
+        height: 24px;
+    }
+
+    .instagram-logo {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    .more-information {
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sozial-container {
+        display: none;
     }
 }
