@@ -13,3 +13,12 @@
         padding: 0px max(120px, calc(50% - 720px));
     }
 }
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    header {
+        justify-content: center;
+    }
+}
