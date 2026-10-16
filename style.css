@@ -57,3 +57,7 @@ footer {
     display: flex;
     gap: 4px;
 }
+.sozial-container {
+    display: flex;
+    gap: 16px;
+}
