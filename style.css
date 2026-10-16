@@ -12,6 +12,10 @@ header {
     align-items: center;
 }
 
+header > img {
+    width: 72px;
+}
+
 nav ul {
     display: flex;
     gap: 72px;
