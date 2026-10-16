@@ -32,3 +32,17 @@ nav li {
     color: rgba(248, 245, 235, 1);
     list-style-type: none;
 }
+
+footer {
+    display: flex;
+    gap: 102px;
+    height: 152px;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.footer-background {
+    background-color: rgba(78, 164, 135, 1);
+    width: 100%;
+}
