@@ -8,9 +8,16 @@ header {
     background-color: rgba(78, 164, 135, 1);
     display: flex;
     gap: 102px;
+    height: 128px;
+    align-items: center;
 }
 
-header li {
+nav ul {
+    display: flex;
+    gap: 72px;
+}
+
+nav li {
     font-size: 24px;
     color: rgba(248, 245, 235, 1);
     list-style-type: none;
