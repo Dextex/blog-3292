@@ -1,0 +1,249 @@
+/* Font-family*/
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Palanquin:wght@100;200;300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Palanquin:wght@100;200;300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+/*................................*/
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* Feature Contact form code*/
+.contact_form_wrapper {
+  max-width: 1100px;
+  height: 100vh;
+  width: 100%;
+  /*padding: 0 50px;
+  border: 3px solid black;*/
+  justify-self: center;
+}
+
+.form_content_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.headline_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image_content {
+  max-width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  max-width: 48px;
+  padding: 0 2px;
+}
+
+h1 {
+  font-family: "Arima", system-ui;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  color: #4ea487;
+  padding-left: 15px;
+  white-space: nowrap;
+}
+.description_from {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+h3 {
+  max-width: 979px;
+  width: 100%;
+  font-family: "Palanquin", sans-serif;
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  white-space: nowrap;
+}
+
+.information_collected {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+
+hr {
+  margin-top: 100px;
+  height: 2px;
+  color: gray;
+  background-color: rgb(237, 9, 9);
+  display: flex;
+}
+.name {
+  width: 45%;
+  border: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.name > hr {
+  max-width: 550px;
+  display: flex;
+  /*justify-content: left;*/
+}
+.email {
+  width: 50%;
+  border: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.email > hr {
+  max-width: 550px;
+  display: flex;
+  justify-content: center;
+}
+.help {
+  width: 100%;
+  border: 2px;
+}
+.help > hr {
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+}
+.read-policy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 5px;
+}
+p {
+  font-family: "Palanquin", sans-serif;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 3%;
+  text-align: center;
+  white-space: nowrap;
+  padding: 0 5px;
+}
+span {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 400;
+  /*font-style: Medium;*/
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: -3%;
+  text-align: center;
+  color: #4ea487;
+  /* margin: 0, 1.5rem;*/
+}
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+}
+.container {
+  max-width: 24px;
+  display: flex;
+}
+.checkbox-policy {
+  display: flex;
+  position: relative;
+
+  cursor: pointer;
+}
+.read-policy {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.send-info {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 40px 60px;
+  padding: 0 24px;
+  cursor: pointer;
+}
+.button {
+  max-width: 139px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  font-family: "Arima", system-ui;
+  font-size: 24px;
+  font-weight: 700;
+  border: 2px solid;
+  border-radius: 40px;
+  text-align: center;
+  color: #737373;
+}
+/*
+.input [type="checkbox"] {
+  border: 3px solid black;
+  display: flex;
+}*/
+/* Responsive Design withd width from 480px, 800px, 1200px */
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    display: flex;
+    font-size: 64px;
+    white-space: nowrap;
+  }
+  h3 {
+    display: flex;
+    font-size: 20px;
+    white-space: normal;
+  }
+}
+@media screen and (max-width: 800px) {
+  h3 {
+    display: flex;
+    font-size: 24px;
+    white-space: normal;
+  }
+  p {
+    display: flex;
+    font-size: 24px;
+    white-space: normal;
+  }
+}
+@media screen and (max-width: 480px) {
+  h3 {
+    display: flex;
+    font-size: 16px;
+    white-space: normal;
+  }
+  p {
+    display: flex;
+    font-size: 16px;
+    white-space: normal;
+  }
+  h1 {
+    display: flex;
+    font-size: 24px;
+    white-space: nowrap;
+  }
+  .send-info {
+    margin: 0 10px;
+  }
+  .button {
+    font-size: 16px;
+    margin-top: 50px;
+  }
+}
