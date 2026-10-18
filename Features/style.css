@@ -80,7 +80,7 @@ hr {
   margin-top: 100px;
   height: 2px;
   color: gray;
-  background-color: rgb(237, 9, 9);
+  background-color: gray;
   display: flex;
 }
 .name {
