@@ -42,6 +42,7 @@ img {
   padding: 0 2px;
 }
 
+/* Questions relating to customers_ Name Email, Help */
 h1 {
   font-family: "Arima", system-ui;
   font-size: 64px;
@@ -132,6 +133,8 @@ p {
   white-space: nowrap;
   padding: 0 5px;
 }
+
+/* verification that the private security policy has been read and understood*/
 span {
   font-family: "Palanquin", sans-serif;
   font-weight: 400;
@@ -169,6 +172,8 @@ span {
   align-items: center;
   justify-items: center;
 }
+
+/*Confirmation of the contact form*/
 .send-info {
   display: flex;
   justify-content: center;
@@ -197,6 +202,7 @@ span {
   border: 3px solid black;
   display: flex;
 }*/
+
 /* Responsive Design withd width from 480px, 800px, 1200px */
 
 @media screen and (max-width: 1200px) {
