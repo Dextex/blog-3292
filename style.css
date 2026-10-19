@@ -1,5 +1,97 @@
+/* palanquin-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 400;
+  src: url('.assets/fonts/palanquin-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* arima-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arima';
+  font-style: normal;
+  font-weight: 400;
+  src: url('.assets/fonts/arima-v7-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 * {
     margin: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+}
+
+.faq_section {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap:8px;
+}
+
+.faq_section p {
+    font-family: 'Arima';
+    font-size: 52px;
+    font-weight: 700;
+    color:#4EA487;
+    
+}
+
+.faqs_question {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.faqs_content {
+   background-color: #F1C953;
+   padding: 16px 14px;
+   width: 1200px;
+   border:none;
+   border-radius: 12px;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   
+   
+}
+
+.faqs_text{
+    display: none;
+}
+
+.faqs_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faqs_header p {
+    font-family: 'Palanquin';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #54370D;
+    
+}
+
+:target {
+    display: block;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+#arrow :visited {
+    transform: rotate(180deg);
+    
+}
+
