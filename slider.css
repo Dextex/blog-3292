@@ -8,6 +8,8 @@
     align-items: flex-end;
     border-top-right-radius: 100px;
     overflow: hidden;
+
+    gap: 22px;
 }
 .slider_a_wrapper {
     width: 300%;
@@ -58,6 +60,7 @@
     /* box-shadow for the outer ring */
     box-shadow: 0 0 0 0.1em #99999900;
     background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 3%;
 }
 
 .slider_a input:checked {
@@ -110,8 +113,4 @@
 .slider_content > p {
     line-height: 110%;
     font-size: 28px;
-}
-
-#slider-input-1 {
-    background-image: url(./assets/icons/logo.svg);
 }
