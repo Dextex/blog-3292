@@ -62,9 +62,9 @@ footer {
 }
 
 .hero-section {
-    height: 100dvh;
-    background-image: url(./assets/img/Background.png);
-    background-position: center bottom;
+    background-image: url(./assets/img/header-background.png);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 515px;
 }
