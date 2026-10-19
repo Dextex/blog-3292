@@ -96,6 +96,10 @@
         width: 24px;
         height: 24px;
     }
+
+     .faqs_header{
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 349px) {
@@ -109,4 +113,5 @@
     .sozial-container {
         display: none;
     }
+
 }
