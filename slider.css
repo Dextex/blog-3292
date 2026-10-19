@@ -47,6 +47,32 @@
 
 .slider_a input {
     z-index: 2;
+    accent-color: rgba(241, 201, 83, 1);
+
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 20px;
+    /* White border = spacing between dot and ring */
+    border: 0.15em solid rgba(255, 255, 255, 1);
+    /* box-shadow for the outer ring */
+    box-shadow: 0 0 0 0.1em #99999900;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.slider_a input:checked {
+    z-index: 2;
+    accent-color: rgba(241, 201, 83, 1);
+
+    appearance: none;
+    width: 40px;
+    height: 28px;
+    border-radius: 20px;
+    /* White border = spacing between dot and ring */
+    border: 0.15em solid rgba(241, 201, 83, 1);
+    /* box-shadow for the outer ring */
+    box-shadow: 0 0 0 0.1em #99999900;
+    background-color: rgba(241, 201, 83, 1);
 }
 
 .slider_a input[value="one"]:checked ~ .slider_a_wrapper {
@@ -84,4 +110,8 @@
 .slider_content > p {
     line-height: 110%;
     font-size: 28px;
+}
+
+#slider-input-1 {
+    background-image: url(./assets/icons/logo.svg);
 }
