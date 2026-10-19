@@ -1,19 +1,17 @@
 .slider_a {
     position: relative;
     background-color: black;
-    width: 250px;
-    height: 150px;
-
+    max-width: 1200px;
+    height: 530px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-
+    border-top-right-radius: 100px;
     overflow: hidden;
 }
 .slider_a_wrapper {
     width: 300%;
     height: 100%;
-
     position: absolute;
     display: flex;
 
@@ -27,13 +25,24 @@
 
 .element_one {
     background-color: aquamarine;
+    background-image: url(./assets/img/beaches-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .element_two {
     background-color: brown;
+    background-image: url(./assets/img/copenhagen-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .element_three {
-    background-color: goldenrod;
+    background-image: url(./assets/img/pattaya-pulse.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .slider_a input {
