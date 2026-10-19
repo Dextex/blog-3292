@@ -60,3 +60,12 @@ footer {
     display: flex;
     gap: 16px;
 }
+
+.hero-section {
+    height: 100dvi;
+    width: 100%;
+    background-image: url(./assets/img/Background.png);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
