@@ -125,7 +125,19 @@ footer {
 
 summary{
     list-style: none;
-     display: flex;
+     /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+     font-family: 'Palanquin';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #54370D;
+    pointer-events: none; */
+} 
+
+h2 {
+    display: flex;
     justify-content: space-between;
     align-items: center;
      font-family: 'Palanquin';
@@ -151,6 +163,7 @@ details > p {
     padding: 10px;
 
 }
+
 
 summary img{
     transition: transform 285ms ease-in-out;
