@@ -94,6 +94,17 @@ footer {
    gap:8px;
 }
 
+.hightlights{
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.describtion-text{
+    text-align: center;
+    font-size: 24px;
+}
+
 h2 {
     font-family: 'Arima';
     font-size: 52px;
