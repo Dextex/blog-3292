@@ -19,6 +19,11 @@
     transition: all 1s ease-in-out;
 }
 
+.slider_a_wrapper a {
+    display: block;
+    height: 100%;
+}
+
 .slider_a_element {
     width: calc(100% / 3);
     height: 100%;
