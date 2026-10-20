@@ -65,6 +65,7 @@
     box-shadow: 0 0 0 0.1em #99999900;
     background-color: rgba(255, 255, 255, 1);
     margin-bottom: 3%;
+    cursor: pointer;
 }
 
 .slider_a input:checked {
