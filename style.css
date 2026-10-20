@@ -94,7 +94,7 @@ footer {
    gap:8px;
 }
 
-.faq_section p {
+h2 {
     font-family: 'Arima';
     font-size: 52px;
     font-weight: 700;
@@ -136,7 +136,7 @@ summary{
     pointer-events: none; */
 } 
 
-h2 {
+.faqs h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
