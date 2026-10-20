@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <article>
+      <section class="left-content-wrapper">
+        <div class="left-content">
+          <div><h2>Where the Ocean Meets Your Soul</h2></div>
+          <div class="headline">
+            <h1>The World's Most Breathtaking Beaches</h1>
+          </div>
+
+          <div class="headline_description">
+            <p>
+              From powder-soft white sands to dramatic coastlines kissed by
+              turquoise waves, these beaches are more than destinations —
+              they're feelings.
+            </p>
+          </div>
+        </div>
+        <div class="media-info">
+          <div class="calendar-month">
+            <img src="./icons/calendar_month@2x.png" alt="calender" />
+            <p>Date:26.01.2026</p>
+          </div>
+          <div class="calendar-month">
+            <img src="./icons/eyeglasses_2.png" alt="eyeglass" />
+            <p>Reading time:6min</p>
+          </div>
+          <div class="calendar-month">
+            <img src="./icons/visibility.png" alt="visibility" />
+            <p>Read:164/p></p>
+          </div>
+          <div class="calendar-month">
+            <img src="./icons/share.png" alt="share" />
+            <p>Shared:18</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="right-content-wrapper">
+        <div class="rigth-content">
+          <div class="avatar-content">
+            <figure>
+              <img src="./images/Avatar.png" alt="Tamara Wallker" />
+              <figcaption></figcaption>
+            </figure>
+          </div>
+          <div class="descritpion-card">
+            <div class="autor-content">
+              <h2>Tamara Wallker</h2>
+              <h3>Author</h3>
+            </div>
+
+            <div class="about-autor">
+              <p>
+                I've been traveling since 2017, chasing moments instead of
+                plans. I'm fascinated by snakes, love sharks, would happily
+                spend weeks deep in the jungle, and can never get enough papaya.
+                As long as there's a next destination, I know I'm exactly where
+                I'm meant to be.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </body>
+</html>
