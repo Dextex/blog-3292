@@ -61,6 +61,12 @@ footer {
     font-size: 16px;
 }
 
+main{
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
 .footer-background {
     background-color: rgba(78, 164, 135, 1);
     width: 100%;
