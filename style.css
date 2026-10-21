@@ -263,13 +263,63 @@ details[open] summary img {
 
 .slider{
     display: flex;
-    gap:10px;
+    gap:10px; 
     align-items: center;
 }
 
 .slider_element > img{
+    z-index: 1;
     width: 300px;
     height:440px;
+    object-fit: cover;
     border-radius: 16px;
+
+    box-shadow: 0px 2px 2px rgba(3, 7, 18, 0.02),
+  0px 8px 6px rgba(3, 7, 18, 0.04),
+  0px 18px 14px rgba(3, 7, 18, 0.06),
+  0px 32px 24px rgba(3, 7, 18, 0.08);
+
     transform: perspective(250px) rotateY(20deg) translateX(-20px);
+    transform-origin: 50% 50%;
+    transition:all 250ms ease-in-out;
+}
+
+.slider_element > img:hover{
+    z-index: 2;
+    transform: perspective(250px) rotateY(0deg) translateX(0px);
+    
+
+}
+
+
+ .slider_element{
+    z-index: 1;
+    width: 300px;
+    height:440px;
+    object-fit:cover;
+
+  
+
+
+    border-radius: 16px;
+
+    box-shadow: 0px 2px 2px rgba(3, 7, 18, 0.02),
+  0px 8px 6px rgba(3, 7, 18, 0.04),
+  0px 18px 14px rgba(3, 7, 18, 0.06),
+  0px 32px 24px rgba(3, 7, 18, 0.08);
+
+    transform: perspective(200px) rotateY(20deg) translateX(-20px);
+    transform-origin: 50% 50%;
+    transition:all 300ms ease-in-out;
+}
+
+.slider_element:hover{
+    z-index: 2;
+    transform: perspective(200px) rotateY(0deg) translateX(0px) scaleX(1.2) scaleY(1.2);
+
+}
+
+.slider_element:hover~.slider_element
+{
+    transform:perspective(200px) rotateY(-20deg) translateX(20px);
 }
