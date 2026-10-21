@@ -22,6 +22,13 @@
     scroll-behavior: smooth;
 }
 
+h1 {
+    color: rgba(84, 55, 13, 1);
+    font-size: 60px;
+    line-height: 120%;
+    white-space: nowrap;
+}
+
 .header-background {
     background-color: rgba(78, 164, 135, 1);
     width: 100%;
@@ -188,4 +195,55 @@ details[open] summary img {
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+.hero-section {
+    background-image: url(./assets/img/header-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 515px;
+}
+
+.content-box {
+    background-image: url(./assets/icons/yellow-background.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 540px;
+    width: 647px;
+    display: flex;
+    align-items: center;
+}
+
+.headline-wrapper {
+    max-width: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 15%;
+}
+
+.headline-wrapper > p {
+    font-size: 28px;
+    color: rgba(84, 55, 13, 1);
+}
+
+.bagde-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 10%;
+    bottom: -18%;
+}
+.bagde-background {
+    position: absolute;
+    width: 160px;
+}
+.bagde-text {
+    position: absolute;
+    width: 132px;
+}
+.bagde-orb {
+    position: absolute;
+    width: 50px;
 }
