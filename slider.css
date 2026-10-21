@@ -22,6 +22,7 @@
 .slider_a_wrapper a {
     display: block;
     height: 100%;
+    text-decoration: none;
 }
 
 .slider_a_element {
