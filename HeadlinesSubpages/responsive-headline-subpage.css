@@ -210,7 +210,7 @@
   .rigth-content {
     width: 345px;
     height: 328px;
-
+    padding: 16px;
     border-radius: 30px;
     background-color: #4ea48733;
     display: flex;

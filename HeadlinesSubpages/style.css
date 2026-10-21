@@ -8,9 +8,14 @@
 
 body {
   display: flex;
-  justify-content: center;
+
+  align-self: center;
+  justify-self: center;
   align-items: center;
-  /*padding: 32px max(32px, calc(50% - 720px));*/
+
+  /*
+  justify-content: center;
+  padding: 32px max(32px, calc(50% - 720px));*/
 }
 
 /* left-content style */
