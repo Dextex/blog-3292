@@ -15,28 +15,34 @@
   }
   h3 {
     display: flex;
-    overflow-wrap: break-word;
+
     white-space: wrap;
     max-width: 80ch;
     text-wrap: balance;
     line-height: 1.6;
     /*font-size: 20px;
-    white-space: normal;*/
+    white-space: normal; overflow-wrap: break-word;*/
   }
   .information_collected {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    /*margin-bottom: 75px;*/
+    /*justify-content: space-between;
+   margin-bottom: 75px;*/
   }
   .checkout-policy > p {
     /*max-width: 507px;
-  max-height: 18px;*/
+    max-height: 18px;*/
     font-family: "Palanquin", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 120%;
     width: 100%;
     white-space: nowrap;
+  }
+  .input-name {
+    width: 500px;
+  }
+  .input-email {
+    width: 500px;
   }
   .input-help {
     padding: 0px;
@@ -91,7 +97,15 @@
     justify-content: space-between;
     margin-bottom: 50px;
   }
-
+  .input-name {
+    width: 300px;
+  }
+  .input-email {
+    width: 300px;
+  }
+  .input-help {
+    padding: 0px;
+  }
   .input-help {
     width: 100%;
   }
@@ -124,7 +138,7 @@
     font-size: 15px;
     line-height: 120%;
     width: 100%;
-    white-space: wrap;
+    white-space: nowrap;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 649px) {
@@ -153,7 +167,16 @@
     margin-top: 50px;
     white-space: nowrap;
     overflow-wrap: break-word;
-    padding-left: 40px;
+    /*padding-left: 40px;*/
+  }
+  .input-name {
+    width: 100%;
+  }
+  .input-email {
+    width: 100%;
+  }
+  .input-help {
+    padding: 0px;
   }
 
   .checkbox-content {
@@ -165,7 +188,7 @@
     align-items: center;
     width: 100%;
     margin: 20px 0px;
-    padding-left: 40px;
+    /*padding-left: 40px;*/
   }
   .checkout-policy > p {
     /*max-width: 507px;
@@ -184,3 +207,24 @@
 /*-------------------------------------------
 
 /*--------------------------------------------*/
+@media screen and (min-width: 320px) and (max-width: 350px) {
+  label {
+    font-family: "Palanquin", sans-serif;
+    display: flex;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 50px;
+    white-space: nowrap;
+    overflow-wrap: break-word;
+    /*padding-left: 40px;*/
+  }
+  .input-name {
+    width: 100%;
+  }
+  .input-email {
+    width: 100%;
+  }
+  .input-help {
+    padding: 0px;
+  }
+}
