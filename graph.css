@@ -45,12 +45,12 @@ main {
     justify-content: center;
 }
 
-.two_diagram > section {
+.two_diagram > div {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
-.two_diagram > section > p {
+.two_diagram > div > p {
     max-width: 520px;
 }
 
