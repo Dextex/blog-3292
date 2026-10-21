@@ -5,6 +5,12 @@
     footer {
         padding: 0px max(120px, calc(50% - 720px));
     }
+    main {
+        padding: 0px max(120px, calc(50% - 720px));
+    }
+    section {
+        padding: 0px max(120px, calc(50% - 720px));
+    }
 }
 @media screen and (max-width: 900px) {
     .copyright-logo {
