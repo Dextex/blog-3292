@@ -4,6 +4,12 @@
     border-radius: 53px;
     box-shadow: -2px 4px 11.6px rgba(0, 0, 0, 0.25);
 }
+.small_diagram {
+    width: 520px;
+    height: 470px;
+    border-radius: 53px;
+    box-shadow: -2px 4px 11.6px rgba(0, 0, 0, 0.25);
+}
 
 .rain-section {
     display: flex;
@@ -27,4 +33,24 @@ h3 {
 main {
     padding-left: 120px;
     padding-right: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.two_diagram {
+    display: flex;
+    gap: 80px;
+}
+
+.two_diagram > section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
 }
