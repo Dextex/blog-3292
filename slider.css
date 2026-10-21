@@ -1,0 +1,154 @@
+.slider_a {
+    position: relative;
+    background-color: black;
+    /*max-width: 1200px;*/
+    width: 1200px;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top-right-radius: 100px;
+    overflow: hidden;
+    gap: 22px;
+}
+.slider_a_wrapper {
+    width: 400%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    left: 0;
+    transition: all 1s ease-in-out;
+}
+
+.slider_a_wrapper a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+
+.slider_a_element {
+    width: calc(100% / 4);
+    height: 100%;
+}
+
+.element_one {
+    background-color: aquamarine;
+    background-image: url(./assets/img/beaches-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.element_two {
+    background-color: brown;
+    background-image: url(./assets/img/copenhagen-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.element_three {
+    background-image: url(./assets/img/pattaya-pulse.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.element_four {
+    background-image: url(./assets/img/Fuji-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider_a input {
+    z-index: 2;
+    accent-color: rgba(241, 201, 83, 1);
+
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 20px;
+    /* White border = spacing between dot and ring */
+    border: 0.15em solid rgba(255, 255, 255, 1);
+    /* box-shadow for the outer ring */
+    box-shadow: 0 0 0 0.1em #99999900;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+
+.slider_a input:checked {
+    z-index: 2;
+    accent-color: rgba(241, 201, 83, 1);
+
+    appearance: none;
+    width: 40px;
+    height: 28px;
+    border-radius: 20px;
+    /* White border = spacing between dot and ring */
+    border: 0.15em solid rgba(241, 201, 83, 1);
+    /* box-shadow for the outer ring */
+    box-shadow: 0 0 0 0.1em #99999900;
+    background-color: rgba(241, 201, 83, 1);
+}
+
+/*
+.slider_a input[value="one"]:checked ~ .slider_a_wrapper {
+    transform: translateX(calc(100% / 4));
+}
+
+.slider_a input[value="two"]:checked ~ .slider_a_wrapper {
+    transform: translateX(0);
+}
+
+.slider_a input[value="three"]:checked ~ .slider_a_wrapper {
+    transform: translateX(calc(-100% / 3));
+}
+
+.slider_a input[value="four"]:checked ~ .slider_a_wrapper {
+    transform: translateX(calc(-100% / 4));
+}
+
+*/
+.slider_a input[value="one"]:checked ~ .slider_a_wrapper {
+    transform: translateX(0);
+}
+
+.slider_a input[value="two"]:checked ~ .slider_a_wrapper {
+    transform: translateX(calc(-100% / 4));
+}
+
+.slider_a input[value="three"]:checked ~ .slider_a_wrapper {
+    transform: translateX(calc((-100% / 4) * 2));
+}
+
+.slider_a input[value="four"]:checked ~ .slider_a_wrapper {
+    transform: translateX(calc((-100% / 4) * 3));
+}
+
+.slider_content {
+    position: relative;
+    top: 54px;
+    left: 38px;
+    max-width: 880px;
+
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 16px 24px;
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.slider_content > h3 {
+    font-size: 48px;
+}
+.slider_content > p {
+    line-height: 110%;
+    font-size: 28px;
+}
