@@ -1,0 +1,87 @@
+.rain-diagram {
+    width: 640px;
+    height: 435px;
+    border-radius: 53px;
+    box-shadow: -2px 4px 11.6px rgba(0, 0, 0, 0.25);
+}
+.small_diagram {
+    width: 520px;
+    height: 470px;
+    border-radius: 53px;
+    box-shadow: -2px 4px 11.6px rgba(0, 0, 0, 0.25);
+}
+
+.rain-section {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    color: rgba(84, 55, 13, 1);
+    font-size: 32px;
+}
+
+.diagram-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main {
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 88px;
+}
+
+.two_diagram {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.two_diagram > section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.two_diagram > section > p {
+    max-width: 520px;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.share_section {
+    max-width: 500px;
+    position: relative;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.arrow_icon {
+    position: absolute;
+    left: -25px;
+    bottom: 10px;
+    width: 105px;
+    height: 65px;
+}
+
+Button > img {
+    width: 24;
+}
+
+button {
+    border-radius: 6px;
+}
