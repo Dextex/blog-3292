@@ -97,3 +97,24 @@ footer {
     font-size: 28px;
     color: rgba(84, 55, 13, 1);
 }
+
+.bagde-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 10%;
+    bottom: -18%;
+}
+.bagde-background {
+    position: absolute;
+    width: 160px;
+}
+.bagde-text {
+    position: absolute;
+    width: 132px;
+}
+.bagde-orb {
+    position: absolute;
+    width: 50px;
+}
