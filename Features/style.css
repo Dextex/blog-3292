@@ -13,15 +13,16 @@
   max-width: 1200px;
   border: 3px solid black;
   justify-self: center;
-  padding-left: 50px;
-  padding-right: 50px;
+  /*padding-left: 25px;
+  padding-right: 25px;*/
 }
 
 .form_content_top {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*margin-bottom: 20px;*/
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .headline_content {
@@ -58,15 +59,14 @@ h1 {
 }
 h3 {
   max-width: 979px;
-  /*width: 100%;*/
+  width: 100%;
   font-family: "Palanquin", sans-serif;
   display: flex;
   font-size: 24px;
   font-weight: 500;
   text-align: center;
   line-height: 1.2;
-
-  white-space: nowrap;
+  white-space: wrap;
   margin-bottom: 50px;
 }
 
@@ -81,19 +81,21 @@ label {
   font-family: "Palanquin", sans-serif;
   display: flex;
   font-size: 24px;
-  font-weight: 500;
-  text-align: center;
+  text-align: left;
   margin-top: 50px;
   white-space: nowrap;
+  overflow-wrap: break-word;
+  /*padding-left: 40px;*/
 }
+
 .my-name {
   gap: 15px;
 }
 .input-name {
-  margin-top: 20%;
-  width: 527px;
+  /*margin-top: 20%*/
+  width: 400px;
+  margin-top: 10%;
 
-  gap: 17px;
   background: transparent;
   border: none;
   border-bottom: 2px solid #000000;
@@ -102,13 +104,13 @@ label {
 p.name {
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 
 .input-email {
-  margin-top: 20%;
-  width: 527px;
+  width: 400px;
+  margin-top: 10%;
 
-  gap: 17px;
   background: transparent;
   border: none;
   border-bottom: 2px solid #000000;
@@ -120,8 +122,8 @@ p.email {
 }
 
 .input-help {
-  width: 1096px;
-  margin-top: 20%;
+  width: 100%;
+  margin-top: 10%;
   background: transparent;
   border: none;
   border-bottom: 2px solid #000000;
@@ -130,9 +132,10 @@ p.email {
 p.help {
   display: flex;
   flex-direction: column;
+  margin-top: -50px;
 }
 
-.read-policy {
+.checkout-policy {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -143,50 +146,43 @@ p.help {
 span {
   font-family: "Palanquin", sans-serif;
   font-weight: 400;
-
   font-size: 16px;
-  letter-spacing: -3%;
-  text-align: center;
+
+  /*text-align: center;*/
   color: #4ea487;
-  padding: 0 0.5rem;
+  word-spacing: 0.3em;
 }
 
-p {
+.checkout-policy > p {
+  /*max-width: 507px;
+  max-height: 18px;*/
   font-family: "Palanquin", sans-serif;
-  display: flex;
   font-size: 16px;
-  font-weight: 400;
   line-height: 120%;
+  width: 100%;
+  white-space: nowrap;
+}
+/*
+.after-agree {
+  display: flex;
+}*/
+.checkbox-content {
+  /*max-width: 539px;
+  max-height: 49px;*/
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0px;
 }
 
 .checkbox-container {
-  /*display: flex;
-  flex-direction: row;*/
-  justify-items: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.container {
-  /*max-width: 24px;*/
+  /*max-width: 507px;
+  max-height: 18px;*/
   display: flex;
-  align-items: center;
-  justify-items: center;
-}
-/*
-.checkbox-policy {
-  display: flex;
-  align-items: center;
-  position: relative;
-  cursor: pointer;
-}*/
-
-.read-policy {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  justify-items: center;
+  flex-direction: row;
+  width: 100%;
 }
 
 /*Confirmation of the contact form*/
@@ -196,14 +192,23 @@ p {
   align-content: center;
   margin: 40px 60px;
   padding: 0 24px;
-  cursor: pointer;
+  /*max-width: 139px;
+  max-height: 48px;*/
 }
+
+.checkbox-img > img {
+  max-width: 24px;
+  max-height: 24px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #54370d;
+}
+
 .button {
   max-width: 139px;
-  width: 100%;
+
   display: flex;
-  justify-items: center;
-  align-content: center;
+  text-align: center;
   justify-content: center;
   font-family: "Arima", system-ui;
   font-size: 24px;
@@ -212,4 +217,6 @@ p {
   border-radius: 40px;
   text-align: center;
   color: #737373;
+  margin: 4px 2px;
+  padding: 0px 40px;
 }
