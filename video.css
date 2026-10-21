@@ -1,0 +1,17 @@
+p,
+ul {
+    font-size: 24px;
+    color: rgba(61, 61, 61, 1);
+}
+
+iframe {
+    border-radius: 53px;
+}
+
+.video-section {
+    padding-top: 137px;
+}
+
+.second-paragraph {
+    max-width: 1000px;
+}
