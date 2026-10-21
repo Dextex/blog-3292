@@ -8,6 +8,7 @@ h1 {
     color: rgba(84, 55, 13, 1);
     font-size: 60px;
     line-height: 120%;
+    white-space: nowrap;
 }
 
 .header-background {
@@ -79,4 +80,20 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     height: 540px;
+    width: 647px;
+    display: flex;
+    align-items: center;
+}
+
+.headline-wrapper {
+    max-width: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 15%;
+}
+
+.headline-wrapper > p {
+    font-size: 28px;
+    color: rgba(84, 55, 13, 1);
 }
