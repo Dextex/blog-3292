@@ -1,7 +1,8 @@
 .slider_a {
     position: relative;
     background-color: black;
-    max-width: 1200px;
+    /*max-width: 1200px;*/
+    width: 1200px;
     height: 530px;
     display: flex;
     justify-content: center;
@@ -11,11 +12,11 @@
     gap: 22px;
 }
 .slider_a_wrapper {
-    width: 300%;
+    width: 400%;
     height: 100%;
     position: absolute;
     display: flex;
-
+    left: 0;
     transition: all 1s ease-in-out;
 }
 
@@ -26,7 +27,7 @@
 }
 
 .slider_a_element {
-    width: calc(100% / 3);
+    width: calc(100% / 4);
     height: 100%;
 }
 
@@ -47,6 +48,13 @@
 }
 .element_three {
     background-image: url(./assets/img/pattaya-pulse.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.element_four {
+    background-image: url(./assets/img/Fuji-background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -84,14 +92,38 @@
     background-color: rgba(241, 201, 83, 1);
 }
 
+/*
 .slider_a input[value="one"]:checked ~ .slider_a_wrapper {
-    transform: translateX(calc(100% / 3));
+    transform: translateX(calc(100% / 4));
 }
+
 .slider_a input[value="two"]:checked ~ .slider_a_wrapper {
     transform: translateX(0);
 }
+
 .slider_a input[value="three"]:checked ~ .slider_a_wrapper {
     transform: translateX(calc(-100% / 3));
+}
+
+.slider_a input[value="four"]:checked ~ .slider_a_wrapper {
+    transform: translateX(calc(-100% / 4));
+}
+
+*/
+.slider_a input[value="one"]:checked ~ .slider_a_wrapper {
+    transform: translateX(0);
+}
+
+.slider_a input[value="two"]:checked ~ .slider_a_wrapper {
+    transform: translateX(calc(-100% / 4));
+}
+
+.slider_a input[value="three"]:checked ~ .slider_a_wrapper {
+    transform: translateX(calc((-100% / 4) * 2));
+}
+
+.slider_a input[value="four"]:checked ~ .slider_a_wrapper {
+    transform: translateX(calc((-100% / 4) * 3));
 }
 
 .slider_content {
