@@ -8,84 +8,89 @@
 
 body {
   display: flex;
-  justify-content: center;
+
+  align-self: center;
+  justify-self: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
-  padding: 0px max(64px, calc(50% - 720px));
+
+  /*
+  justify-content: center;
+  padding: 32px max(32px, calc(50% - 720px));*/
 }
 
 /* left-content style */
-article {
-  width: 1201px;
-
+.main-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  margin-top: 100px;
+  margin: 50px 50px;
+  gap: 30px;
 
-  /*
-  border: 1px solid black;
-  text-align: justify;*/
+  /*border: 1px solid black;*/
 }
 .left-content-wrapper {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 10px;
 }
 .left-content {
   width: 902px;
-  height: 391px;
-
+  /*height: 391px;*/
   display: flex;
   flex-direction: column;
+
+  align-items: center;
+  justify-self: center;
+  /*gap: 20px;*/
 }
-h2 {
+.befor-headline {
+  width: 100%;
+}
+.befor-headline > h2 {
   font-family: "Palanquin", sans-serif;
-  font-weight: 600;
   font-size: 40px;
-  line-height: 120%;
-  letter-spacing: 0%;
+
   color: #4ea487;
-  gap: 5px;
+  display: flex;
 }
 
 .headline {
-  max-width: 902px;
-  height: 154px;
+  /*max-width: 902px;
+  height: 154px;*/
+  padding: 0px;
 }
-.headline > h1 {
+.befor-headline > h1 {
   font-family: "Arima", system-ui;
   font-size: 64px;
   font-weight: 700;
-  line-height: 120%;
-  letter-spacing: 0%;
-  color: #f1c953;
 
+  color: #f1c953;
   white-space: wrap;
+  line-height: 1.3;
 }
 
 .headline_description {
-  padding: 0px;
+  width: 100%;
 }
 .headline_description > p {
   font-family: "Palanquin", sans-serif;
-  font-weight: 400;
   font-size: 32px;
-  line-height: 120%;
-  letter-spacing: 0%;
   color: #54370d;
   display: flex;
   justify-items: center;
-  text-align: left;
+  align-items: center;
+  justify-self: center;
+  text-align: justify;
+  line-height: 1.3;
 }
 
 .media-info {
-  width: 60%;
   display: flex;
   flex-direction: row;
+  justify-self: center;
+  align-items: center;
   gap: 10px;
 }
 .calendar-month {
@@ -135,8 +140,7 @@ h2 {
   font-family: "Arima", system-ui;
   font-size: 24px;
   font-weight: 700;
-  line-height: 120%;
-  letter-spacing: 0%;
+
   display: flex;
   justify-content: center;
   text-align: center;
