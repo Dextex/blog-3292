@@ -41,12 +41,16 @@ main {
 .two_diagram {
     display: flex;
     gap: 80px;
+    justify-content: center;
 }
 
 .two_diagram > section {
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+.two_diagram > section > p {
+    max-width: 520px;
 }
 
 main > section {
