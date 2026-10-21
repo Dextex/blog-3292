@@ -48,6 +48,7 @@ main {
 .two_diagram > div {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 24px;
 }
 .two_diagram > div > p {
