@@ -1,15 +1,3 @@
-body {
-    display: flex;
-
-    align-self: center;
-    justify-self: center;
-    align-items: center;
-
-    /*
-  justify-content: center;
-  padding: 32px max(32px, calc(50% - 720px));*/
-}
-
 /* left-content style */
 .main-section {
     display: flex;
