@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*padding: 64px max(64px, calc(50% - 720px));*/
+  /*padding: 32px max(32px, calc(50% - 720px));*/
 }
 
 /* left-content style */
