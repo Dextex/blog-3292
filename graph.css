@@ -77,3 +77,11 @@ main > section {
     width: 105px;
     height: 65px;
 }
+
+Button > img {
+    width: 24;
+}
+
+button {
+    border-radius: 6px;
+}
