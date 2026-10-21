@@ -82,6 +82,54 @@ label {
   white-space: nowrap;
 }
 .my-name {
+  gap: 15px;
+}
+.input-name {
+  width: 527px;
+  height: 93px;
+  gap: 17px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #000000;
+  display: flex;
+  margin-bottom: 93px;
+}
+p.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-email {
+  width: 527px;
+  height: 93px;
+  gap: 17px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #000000;
+  display: flex;
+  margin-bottom: 93px;
+}
+p.email {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-help {
+  width: 1100px;
+  height: 93px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #000000;
+  display: flex;
+}
+
+p.help {
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+.my-name {
   width: 527px;
   height: 120px;
   border-bottom: 2px solid black;
@@ -137,18 +185,27 @@ p {
   font-size: 15px;
   font-weight: 400;
   line-height: 120%;
-  padding-left: 10px;
 }
-
 .checkbox-container {
+  /*display: flex;
+  flex-direction: row;*/
   justify-items: center;
   align-items: center;
   margin-top: 20px;
 }
 
 .container {
+  /*max-width: 24px;*/
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.checkbox-policy {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
 }
 
 .checkbox {
@@ -159,17 +216,7 @@ p {
   justify-self: left;
   padding-right: 10px;
 }
-/*
-.read-policy {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  justify-items: center;
-}
-*/
 /*Confirmation of the contact form*/
-
 .send-info {
   display: flex;
   justify-content: center;
