@@ -1,19 +1,19 @@
 /* palanquin-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Palanquin';
-  font-style: normal;
-  font-weight: 400;
-  src: url('.assets/fonts/palanquin-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Palanquin";
+    font-style: normal;
+    font-weight: 400;
+    src: url(".assets/fonts/palanquin-v17-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* arima-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Arima';
-  font-style: normal;
-  font-weight: 400;
-  src: url('.assets/fonts/arima-v7-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Arima";
+    font-style: normal;
+    font-weight: 400;
+    src: url(".assets/fonts/arima-v7-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 * {
@@ -61,7 +61,7 @@ footer {
     font-size: 16px;
 }
 
-main{
+main {
     width: 100%;
     padding-left: 120px;
     padding-right: 120px;
@@ -93,33 +93,32 @@ main{
     flex-direction: column;
     gap: 48px;
     align-items: center;
-    padding:0px 16px;
+    padding: 0px 16px;
 }
 
 .section_header {
     display: flex;
-   align-items: center;
-   justify-content: center;
-   gap:8px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
-.hightlights{
+.hightlights {
     display: flex;
     flex-direction: column;
     gap: 88px;
 }
 
-.describtion-text{
+.describtion-text {
     text-align: center;
     font-size: 24px;
 }
 
 h2 {
-    font-family: 'Arima';
+    font-family: "Arima";
     font-size: 52px;
     font-weight: 700;
-    color:#4EA487;
-    
+    color: #4ea487;
 }
 
 .faqs_question {
@@ -130,22 +129,18 @@ h2 {
 }
 
 .faqs_content {
-   background-color: #F1C953;
-   padding: 16px 14px;
-   border:none;
-   border-radius: 12px;
-   display: flex;
-   flex-direction: column;
-   gap: 8px;
-  
-   
-   
+    background-color: #f1c953;
+    padding: 16px 14px;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-
-summary{
+summary {
     list-style: none;
-     /* display: flex;
+    /* display: flex;
     justify-content: space-between;
     align-items: center;
      font-family: 'Palanquin';
@@ -154,44 +149,43 @@ summary{
     line-height: 28px;
     color: #54370D;
     pointer-events: none; */
-} 
+}
 
 .faqs h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-     font-family: 'Palanquin';
+    font-family: "Palanquin";
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
-    color: #54370D;
+    color: #54370d;
     pointer-events: none;
 }
 
 .trigger {
-    pointer-events:auto;
+    pointer-events: auto;
     cursor: pointer;
-
 }
 
 details > p {
-
     display: block;
     background-color: white;
     font-size: 15px;
     border-radius: 6px;
     padding: 10px;
-
 }
 
-
-summary img{
+summary img {
     transition: transform 285ms ease-in-out;
 }
 
-details[open] summary img{
-    transform: rotate(-180deg) ;
+details[open] summary img {
+    transform: rotate(-180deg);
 }
 
-
-
+.section_header_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
