@@ -1,12 +1,11 @@
 /* Responsive Design withd width from 480px, 800px, 1200px */
 
-@media screen and (min-width: 950px) and (max-width: 1440px) {
+@media screen and (min-width: 11000px) and (max-width: 1440px) {
   .contact {
     display: flex;
-    flex-direction: column;
-    margin: auto;
-    max-width: 1440px;
-    min-height: 100vh;
+  }
+  .contact_form_wrapper {
+    flex-direction: row;
   }
   h1 {
     display: flex;
@@ -15,38 +14,16 @@
   }
   h3 {
     display: flex;
-
-    white-space: wrap;
-    max-width: 80ch;
+    white-space: nowrap;
+    max-width: 56ch;
     text-wrap: balance;
     line-height: 1.6;
-    /*font-size: 20px;
-    white-space: normal; overflow-wrap: break-word;*/
   }
   .information_collected {
     display: flex;
     flex-direction: row;
-    /*justify-content: space-between;
-   margin-bottom: 75px;*/
   }
-  .checkout-policy > p {
-    /*max-width: 507px;
-    max-height: 18px;*/
-    font-family: "Palanquin", sans-serif;
-    font-size: 18px;
-    line-height: 120%;
-    width: 100%;
-    white-space: nowrap;
-  }
-  .input-name {
-    width: 500px;
-  }
-  .input-email {
-    width: 500px;
-  }
-  .input-help {
-    padding: 0px;
-  }
+
   label {
     font-family: "Palanquin", sans-serif;
     display: flex;
@@ -55,60 +32,38 @@
     margin-top: 50px;
     white-space: nowrap;
     overflow-wrap: break-word;
-    /*padding-left: 40px;*/
   }
-
+  /*
   .checkbox-content {
-    /*max-width: 539px;
-  max-height: 49px;*/
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-items: center;
     align-items: center;
     width: 100%;
     margin: 20px 0px;
-    /*padding-left: 40px;*/
-  }
-  .after-agree {
-    display: flex;
-    white-space: nowrap;
-  }
+  } */
 }
-@media screen and (min-width: 650px) and (max-width: 949px) {
+
+@media screen and (min-width: 650px) and (max-width: 1100px) {
   h1 {
     display: flex;
     font-size: 64px;
     white-space: nowrap;
   }
   h3 {
-    display: none;
-    /*overflow-wrap: break-word;
-    white-space: wrap;
-    max-width: 50ch;
-    text-wrap: balance;
-    line-height: 1.2;
-    white-space: wrap;
-    font-size: 20px;
-    white-space: normal;*/
+    display: flex;
   }
   .information_collected {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin-bottom: 50px;
   }
-  .input-name {
-    width: 300px;
+  .my-help {
+    display: flex;
+    flex-direction: column;
   }
-  .input-email {
-    width: 300px;
-  }
-  .input-help {
-    padding: 0px;
-  }
-  .input-help {
-    width: 100%;
-  }
+
   label {
     font-family: "Palanquin", sans-serif;
     display: flex;
@@ -117,30 +72,18 @@
     margin-top: 50px;
     white-space: nowrap;
     overflow-wrap: break-word;
-    /*padding-left: 40px;*/
   }
 
   .checkbox-content {
-    /*max-width: 539px;
-  max-height: 49px;*/
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     width: 100%;
     margin: 20px 0px;
-    /*padding-left: 40px;*/
-  }
-  .checkout-policy > p {
-    /*max-width: 507px;
-  max-height: 18px;*/
-    font-family: "Palanquin", sans-serif;
-    font-size: 15px;
-    line-height: 120%;
-    width: 100%;
-    white-space: nowrap;
   }
 }
+/*
 @media screen and (min-width: 320px) and (max-width: 649px) {
   h1 {
     display: flex;
@@ -149,9 +92,6 @@
   }
   h3 {
     display: none;
-
-    /*font-size: 20px;
-    white-space: normal;*/
   }
   .information_collected {
     display: flex;
@@ -167,32 +107,17 @@
     margin-top: 50px;
     white-space: nowrap;
     overflow-wrap: break-word;
-    /*padding-left: 40px;*/
-  }
-  .input-name {
-    width: 100%;
-  }
-  .input-email {
-    width: 100%;
-  }
-  .input-help {
-    padding: 0px;
   }
 
   .checkbox-content {
-    /*max-width: 539px;
-  max-height: 49px;*/
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     width: 100%;
     margin: 20px 0px;
-    /*padding-left: 40px;*/
   }
   .checkout-policy > p {
-    /*max-width: 507px;
-  max-height: 18px;*/
     font-family: "Palanquin", sans-serif;
     font-size: 15px;
     line-height: 120%;
@@ -204,9 +129,8 @@
   }
 }
 
-/*-------------------------------------------
 
-/*--------------------------------------------*/
+
 @media screen and (min-width: 320px) and (max-width: 350px) {
   label {
     font-family: "Palanquin", sans-serif;
@@ -216,15 +140,6 @@
     margin-top: 50px;
     white-space: nowrap;
     overflow-wrap: break-word;
-    /*padding-left: 40px;*/
-  }
-  .input-name {
-    width: 100%;
-  }
-  .input-email {
-    width: 100%;
-  }
-  .input-help {
-    padding: 0px;
   }
 }
+*/
