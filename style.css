@@ -266,6 +266,7 @@ details[open] summary img {
     flex-direction: column;
     gap:64px;
     align-items: center;
+    width: 100%;
 }
 
 /* .stage{
@@ -276,12 +277,12 @@ details[open] summary img {
 } */
 
 .slider{
+    z-index: 1;
     display: flex;
     align-items: center;
     height: 440px;
-    width: 1100px;
+    width: min(1100px, 100%);
     position: relative;
-    
 }
 
 .slider_element > img{
@@ -311,7 +312,7 @@ details[open] summary img {
 
  .slider_element{
     z-index: 1;
-    width: 300px;
+    width: 20%;
     height:440px;
     /* object-fit:cover; */
 
@@ -412,85 +413,146 @@ h4{
 
 }
 
-.image-slider-mobile{
+ .image-slider-mobile{
     position: relative;
-    width: 250px;
-    height:150px;
-    display:flex;
+    width: min(686px, calc(100vw - 48px));
+    aspect-ratio: 686 / 718;
+    display: none;
     justify-content: center;
     align-items: flex-end;
-    overflow: hidden;
-}
+     gap: 16px;
+     overflow: hidden;
+     background-color: transparent;
+ }
 
 .image-slider-mobile input{
-    z-index: 2;
+    appearance: none;
+    position: relative;
+    z-index: 10;
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    border: 0;
+    border-radius: 50%;
+    background-color: #C9E5DC;
+    cursor: pointer;
+    transition: flex-basis 300ms ease, background-color 300ms ease;
+}
+
+.image-slider-mobile input:checked{
+    width:40px;
+    height:22px;
+    border-radius: 24px;
+    background-color: #4EA487;
 }
 
 .slider-mobile-wrapper{
     z-index: 1;
-    width:500%;
-    height:100%;
+    width: 900%;
+    height: 82%;
     position: absolute;
+    left: 0;
+    top: 0;
     display: flex;
-    transition: all 1s ease-in-out;
+    align-items: center;
+    transition: transform 600ms ease-in-out;
 }
 
 .slider-mobile-element{
-    width: calc(100% / 5);
-    height:100%;
+    position: relative;
+    flex: 0 0 6.48%;
+    height: 100%;
+    margin-right: -0.39%;
+    border-radius: clamp(16px, 4vw, 32px);
+    box-shadow: 0 16px 35px rgba(35, 42, 60, 0.2);
+    transform: scale(0.8);
+    transition: transform 600ms ease-in-out, box-shadow 600ms ease-in-out, opacity 600ms ease-in-out;
+} 
+
+.image-slider-mobile input[value="one"]:checked ~ .slider-mobile-wrapper {
+    transform: translateX(-10.43%);
 }
 
-.image-slider-mobile input[value="one"]:checked ~ .slider-mobile-wrapper{
-    transform: translateX(calc(100%/5));
-
+.image-slider-mobile input[value="two"]:checked ~ .slider-mobile-wrapper {
+    transform: translateX(-15.95%);
 }
 
-/* .image-slider-mobile input[value="two"]:checked ~ .slider-mobile-wrapper{
-    transform: translateX(calc(100%/5));
-
+.image-slider-mobile input[value="three"]:checked ~ .slider-mobile-wrapper {
+    transform: translateX(-22.04%);
 }
 
-.image-slider-mobile input[value="three"]:checked ~ .slider-mobile-wrapper{
-    transform: translateX(calc(100%/5));
-
+.image-slider-mobile input[value="four"]:checked ~ .slider-mobile-wrapper {
+    transform: translateX(-28.13%);
 }
 
-.image-slider-mobile input[value="four"]:checked ~ .slider-mobile-wrapper{
-    transform: translateX(calc(100%/5));
-
+.image-slider-mobile input[value="five"]:checked ~ .slider-mobile-wrapper {
+    transform: translateX(-33.33%);
 }
 
-.image-slider-mobile input[value="five"]:checked ~ .slider-mobile-wrapper{
-    transform: translateX(calc(100%/5));
+.image-slider-mobile input[value="one"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(2),
+.image-slider-mobile input[value="five"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(8) {
+    opacity: 0;
+}
 
-} */
+.image-slider-mobile input[value="one"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(3),
+.image-slider-mobile input[value="two"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(4),
+.image-slider-mobile input[value="three"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(5),
+.image-slider-mobile input[value="four"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(6),
+.image-slider-mobile input[value="five"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(7) {
+    z-index: 5;
+    transform: scale(1);
+    box-shadow: 0 20px 48px rgba(35, 42, 60, 0.28);
+}
+
+ .image-slider-mobile input[value="one"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(2),
+.image-slider-mobile input[value="two"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(3),
+.image-slider-mobile input[value="three"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(4),
+.image-slider-mobile input[value="four"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(5),
+.image-slider-mobile input[value="five"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(6) {
+    z-index: 3;
+    transform: perspective(900px) rotateY(12deg) scale(0.8);
+}
+
+.image-slider-mobile input[value="one"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(4),
+.image-slider-mobile input[value="two"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(5),
+.image-slider-mobile input[value="three"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(6),
+.image-slider-mobile input[value="four"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(7),
+.image-slider-mobile input[value="five"]:checked ~ .slider-mobile-wrapper > .slider-mobile-element:nth-child(8) {
+    z-index: 3;
+    transform: perspective(900px) rotateY(-12deg) scale(0.8);
+}
 
 .element1{
-    background-image: url(./assets/images/beach\ 05.jpg);
+    background-image: url("./assets/images/beach%2005.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .element2{
     background-image: url(./assets/images/beach03.jpg);
      background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .element3{
     background-image: url(./assets/images/beach02.jpg);
      background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .element4{
     background-image: url(./assets/images/beach01.jpg);
      background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .element5{
     background-image: url(./assets/images/women-in-dress.jpg);
-     background-position: center;
+     background-position: 40% 75%;
     background-repeat: no-repeat;
+    background-size: cover;
 }

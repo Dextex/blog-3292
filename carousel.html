@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./response.css" />
 </head>
 
-<body>
+<body class="carousel-page">
 
     <main>
 
@@ -19,55 +19,34 @@
                 <h1>TOP 5 beach destinations for 2026</h1>
             </header>
 
-            <div class="stage">
-
-                <div class="slider">
-
-                    <div class="slider_element element1"
-                        style="background-image: url(./assets/images/beach\ 05.jpg); background-position: center; background-repeat: no-repeat;background-size: cover;">
-                    </div>
-                    <div class="slider_element element2"
-                        style="background-image: url(./assets/images/beach03.jpg); background-position: center; background-repeat: no-repeat;background-size: cover;">
-                    </div>
-                    <div class="slider_element element3"
-                        style="background-image: url(./assets/images/beach02.jpg); background-position: center; background-repeat: no-repeat;background-size: cover;">
-                    </div>
-                    <div class="slider_element element4"
-                        style="background-image: url(./assets/images/beach01.jpg); background-position:center; background-repeat: no-repeat;background-size: cover;">
-                    </div>
-                    <div class="slider_element element5"
-                        style="background-image: url(./assets/images/women-in-dress.jpg); background-position:40% 75%; background-repeat: no-repeat;background-size: cover;">
-                    </div>
-
-
-                    <!-- <img class="slider_element" src="./assets/images/beach 05.jpg" alt="beach photo4">
-        <img class="slider_element" src="./assets/images/beach03.jpg" alt="beach photo3">
-        <img class="slider_element" src="./assets/images/beach02.jpg" alt="beach photo2">
-        <img class="slider_element" src="./assets/images/beach01.jpg" alt="beach photo1">
-        <img class="slider_element" src="./assets/images/women-on-beach.jpg" alt="women on beach"> -->
-
-                </div>
+            <div class="slider">
+                <div class="slider_element element1"></div>
+                <div class="slider_element element2"></div>
+                <div class="slider_element element3"></div>
+                <div class="slider_element element4"></div>
+                <div class="slider_element element5"></div>
             </div>
-
-
         </section>
 
+
         <section class="image-slider-mobile">
-            <input type="radio" name="slider" value="one" checked>
-            <input type="radio" name="slider" value="two">
-            <input type="radio" name="slider" value="three">
-            <input type="radio" name="slider" value="four">
-            <input type="radio" name="slider" value="five">
+            <input type="radio" name="mobile-slider" value="one" aria-label="Show slide 1" checked>
+            <input type="radio" name="mobile-slider" value="two" aria-label="Show slide 2">
+            <input type="radio" name="mobile-slider" value="three" aria-label="Show slide 3">
+            <input type="radio" name="mobile-slider" value="four" aria-label="Show slide 4">
+            <input type="radio" name="mobile-slider" value="five" aria-label="Show slide 5">
 
             <div class="slider-mobile-wrapper">
-
-                <div class="slider-mobile-element element1"></div>
-                <div class="slider-mobile-element element2"></div>
-                <div class="slider-mobile-element element3"></div>
-                <div class="slider-mobile-element element4"></div>
-                <div class="slider-mobile-element element5"></div>
-                
-                </div>
+                <div class="slider-mobile-element element4" aria-hidden="true"></div>
+                <div class="slider-mobile-element element5" aria-hidden="true"></div>
+                <div class="slider-mobile-element element1" aria-hidden="true"></div>
+                <div class="slider-mobile-element element2" aria-hidden="true"></div>
+                <div class="slider-mobile-element element3" aria-hidden="true"></div>
+                <div class="slider-mobile-element element4" aria-hidden="true"></div>
+                <div class="slider-mobile-element element5" aria-hidden="true"></div>
+                <div class="slider-mobile-element element1" aria-hidden="true"></div>
+                <div class="slider-mobile-element element2" aria-hidden="true"></div>
+            </div>
 
 
         </section>
