@@ -14,8 +14,10 @@ body {
   align-items: center;
 
   /*
-  justify-content: center;
-  padding: 32px max(32px, calc(50% - 720px));*/
+
+  padding: 32px max(32px, calc(50% - 720px));
+   border: 1px solid black;
+  */
 }
 
 /* left-content style */
@@ -27,8 +29,6 @@ body {
   margin: 50px 50px;
   gap: 30px;
   background-color: white;
-
-  border: 1px solid black;
 }
 .left-content-wrapper {
   width: 100%;
