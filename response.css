@@ -15,10 +15,16 @@
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1300px) {
+@media screen and (min-width: 700px) and (max-width: 1300px) {
     main {
         padding-left: 60px;
         padding-right: 60px;
+    }
+    .slider_content {
+        top: 54px;
+        left: 38px;
+        width: 550px;
+        min-width: 0px;
     }
 }
 
@@ -34,7 +40,12 @@
         width: 18px;
         height: 18px;
     }
-
+    .hightlights {
+        gap: 32px;
+    }
+    .describtion-text {
+        display: none;
+    }
     .tiktok-logo {
         width: 26px;
         height: 26px;
@@ -63,7 +74,7 @@
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 860px) {
     main {
         padding-left: 15px;
         padding-right: 15px;
@@ -73,6 +84,11 @@
     }
     header {
         justify-content: center;
+    }
+    .slider_content {
+        width: 500px;
+        top: 80px;
+        left: 15px;
     }
 }
 @media screen and (min-width: 676px) {
@@ -88,6 +104,11 @@
         font-size: 18px;
     }
 
+    .slider_content {
+        width: 300px;
+        top: 100px;
+        left: 15px;
+    }
     .arrow_icon {
         display: none;
     }
@@ -173,6 +194,11 @@
 }
 
 @media screen and (max-width: 349px) {
+    .slider_content {
+        width: 240px;
+        top: 100px;
+        left: 15px;
+    }
     footer {
         flex-direction: column;
         align-items: center;

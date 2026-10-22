@@ -97,3 +97,21 @@ footer p {
     line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+.slider_content > h3 {
+    font-size: 48px;
+}
+
+@media screen and (max-width: 675px) {
+    .slider_content > h3 {
+        font-size: 28px;
+    }
+
+    .slider_a p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .describtion-text {
+        font-size: 18px;
+    }
+}

@@ -132,6 +132,7 @@
     top: 54px;
     left: 38px;
     max-width: 880px;
+    min-width: 0px;
 
     color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, 0.1);
@@ -144,12 +145,4 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-}
-
-.slider_content > h3 {
-    font-size: 48px;
-}
-.slider_content > p {
-    line-height: 110%;
-    font-size: 28px;
 }
