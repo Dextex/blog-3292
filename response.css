@@ -512,7 +512,7 @@
 
 @media screen and (max-width:1135px) {
     .tipps-ol{
-    height: 240px;
+    height: fit-content;
 
     
 }
@@ -524,6 +524,13 @@
     font-size: 20px;
 
     
+}
+    
+}
+
+@media screen and (max-width:1038px) {
+    .corousal-paragraph-2 {
+    margin-left: 0px;
 }
     
 }
