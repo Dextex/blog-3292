@@ -195,6 +195,7 @@
     h2 {
         font-size: 16px;
     }
+
 }
 
 @media screen and (max-width: 349px) {
@@ -258,7 +259,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
     .carousel-page main {
         margin-top: 8px;
         padding-right: 16px;
@@ -307,6 +308,37 @@
     .tipps-ol {
         font-size: 20px;
     }
+
+    .carousal-paragraph-1 > p {
+    font-size: 20px;
+}
+
+.corousal-paragraph-2 {
+    font-size: 20px;
+  
+}
+
+.corousal-paragraph-2 > p{
+    font-size: 20px;
+  
+}
+
+.tipps-heading >h4{
+    font-size: 20px;
+}
+.lorem-ipsum-last p{
+    font-size: 20px;
+}
+
+.tipps-heading {
+    
+    width: 150px;
+    transform: rotate(-13deg) translateY(15px) translateX(-10px);
+}
+
+.share_section > h4{
+    font-size: 18px;
+}
 }
 
 @media screen and (max-width:1038px) {

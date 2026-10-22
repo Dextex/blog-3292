@@ -529,10 +529,10 @@ h4 {
     ~ .slider-mobile-wrapper
     > .slider-mobile-element:nth-child(7) {
     z-index: 5;
-    transform: scale(1);
+    transform: scale(0.9);
     box-shadow: 0 20px 48px rgba(35, 42, 60, 0.28);
 }
-
+/* 
 .image-slider-mobile
     input[value="one"]:checked
     ~ .slider-mobile-wrapper
@@ -579,7 +579,7 @@ h4 {
     > .slider-mobile-element:nth-child(8) {
     z-index: 3;
     transform: perspective(900px) rotateY(-12deg) scale(0.8);
-}
+} */
 
 .element1 {
     background-image: url("./assets/images/beach%2005.jpg");
