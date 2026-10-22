@@ -17,9 +17,11 @@
 }
 
 * {
+    margin: 0;
     margin: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    line-height: 120%;
 }
 
 h1 {
@@ -372,9 +374,9 @@ h1 {
     transform: rotate(-13deg) translateY(15px) translateX(-20px);
 }
 
-.Lorem-ipsum-ol-section {
+/* .Lorem-ipsum-ol-section{
     width: min(1200px, 100%);
-}
+} */
 
 h4 {
     font-family: "Palanquin";
@@ -391,15 +393,19 @@ h4 {
     font-family: "Palanquin";
     font-size: 24px;
     border-radius: 30px;
-    height: 200px;
+    height: fit-content;
+
+    
 }
 
 .tipps-ol ol {
     align-items: center;
+    padding: 30px 10px 10px 10px;
+    text-wrap: auto;
 }
 
-.pro-tipps-section {
-    width: min(1134px, 100%);
+.pro-tipps-section{
+    padding: unset;
 }
 
 .lorem-ipsum-last > p {
@@ -409,7 +415,8 @@ h4 {
     margin-block-start: 0em;
 }
 
-.image-slider-mobile {
+ .image-slider-mobile{
+    flex-direction: unset;
     position: relative;
     width: min(686px, calc(100vw - 48px));
     aspect-ratio: 686 / 718;
@@ -522,10 +529,10 @@ h4 {
     ~ .slider-mobile-wrapper
     > .slider-mobile-element:nth-child(7) {
     z-index: 5;
-    transform: scale(1);
+    transform: scale(0.9);
     box-shadow: 0 20px 48px rgba(35, 42, 60, 0.28);
 }
-
+/* 
 .image-slider-mobile
     input[value="one"]:checked
     ~ .slider-mobile-wrapper
@@ -572,7 +579,7 @@ h4 {
     > .slider-mobile-element:nth-child(8) {
     z-index: 3;
     transform: perspective(900px) rotateY(-12deg) scale(0.8);
-}
+} */
 
 .element1 {
     background-image: url("./assets/images/beach%2005.jpg");
