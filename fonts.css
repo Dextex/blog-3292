@@ -101,6 +101,13 @@ footer p {
     font-size: 48px;
 }
 
+nav > ul {
+    font-family: Arima;
+    font-weight: 700;
+    line-height: 80%;
+    font-size: 24px;
+}
+
 @media screen and (max-width: 675px) {
     .slider_content > h3 {
         font-size: 28px;
