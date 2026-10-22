@@ -21,19 +21,17 @@
     scroll-behavior: smooth;
 }
 
-<<<<<<< HEAD
 h1 {
     color: rgba(84, 55, 13, 1);
     font-size: 60px;
     line-height: 120%;
     white-space: nowrap;
-=======
+}
 main{
     margin:60px;
     width: 100%;
     display: flex;
     flex-direction: column;
->>>>>>> 408e945 (feat: Added the pro-tipps section in carausal page)
 }
 
 .header-background {
@@ -375,10 +373,13 @@ details[open] summary img {
     display: flex;
     align-items: center;
     border-radius: 10px;
-    margin-left:-30px;
-    transform: rotate(-13deg) translateY(25px) translateX(-20px);
+    transform: rotate(-13deg) translateY(15px) translateX(-20px);
 
     
+}
+
+.Lorem-ipsum-ol-section{
+    width: min(1200px, 100%);
 }
 
 h4{
@@ -403,6 +404,10 @@ h4{
 
 .tipps-ol ol{
     align-items: center;
+}
+
+.pro-tipps-section{
+    width: min(1134px, 100%);
 }
 
 .lorem-ipsum-last > p{

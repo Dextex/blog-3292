@@ -509,3 +509,21 @@
         background-position: center;
     }
 }
+
+@media screen and (max-width:1135px) {
+    .tipps-ol{
+    height: 240px;
+
+    
+}
+    
+}
+
+@media screen and (max-width:921px) {
+     .tipps-ol{
+    font-size: 20px;
+
+    
+}
+    
+}
