@@ -63,6 +63,15 @@ nav li {
     color: rgba(248, 245, 235, 1);
     list-style-type: none;
 }
+nav a {
+    color: rgba(248, 245, 235, 1);
+    text-decoration: none;
+}
+
+nav li :active {
+    color: rgba(241, 201, 83, 1);
+}
+
 ul.link-list li img {
     display: none;
 }
