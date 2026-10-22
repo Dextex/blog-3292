@@ -2,7 +2,8 @@
 
 @media screen and (min-width: 1100px) and (max-width: 1440px) {
   .contact {
-    display: flex;
+    margin: 0px;
+    padding: 0px;
   }
   .contact_form_wrapper {
     flex-direction: row;
@@ -42,21 +43,24 @@
     overflow-wrap: break-word;
   }
   .check {
-    width: 539px;
+    max-width: 539px;
     display: flex;
     flex-direction: row;
     margin-top: 15px;
     margin-bottom: 15px;
     gap: 5px;
   }
-  .after-green {
+
+  br.after-green {
+    white-space: nowrap;
+  }
+  p.privacy {
     white-space: nowrap;
   }
 }
 
 @media screen and (min-width: 650px) and (max-width: 1100px) {
   .image_content {
-    /*max-width: 338px;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,7 +104,6 @@
     justify-items: center;
     align-items: center;
     max-width: 335px;
-    /*margin: 20px 0px;*/
   }
   .input-name {
     width: 527px;
@@ -124,9 +127,8 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 649px) {
+@media screen and (min-width: 480px) and (max-width: 649px) {
   .image_content {
-    width: 338px;
     display: flex;
     align-self: center;
     justify-self: center;
@@ -149,16 +151,18 @@
   }
   label {
     font-family: "Palanquin", sans-serif;
-    display: flex;
+
     font-size: 24px;
     text-align: right;
     white-space: nowrap;
+
     max-width: 338px;
     display: flex;
+
     justify-content: flex-start;
   }
   .input-name {
-    width: 338px;
+    max-width: 338px;
     height: 98px;
     gap: 17px;
     background: transparent;
@@ -168,14 +172,15 @@
     margin-bottom: 0px;
   }
   .input-email {
-    width: 338px;
+    max-width: 338px;
     height: 98px;
     gap: 17px;
     background: transparent;
     border: none;
     border-bottom: 2px solid #000000;
     display: flex;
-    margin-bottom: 50px;
+    align-self: center;
+    justify-self: center;
   }
 
   .my-help {
@@ -185,7 +190,7 @@
   }
   .input-help {
     width: 338px;
-    /*height: 98px;*/
+
     gap: 17px;
     background: transparent;
     border: none;
@@ -205,30 +210,20 @@
     justify-items: center;
     align-items: center;
     max-width: 338px;
-    /*margin: 20px 0px;*/
   }
 
-  .checkout-policy > p {
-    font-family: "Palanquin", sans-serif;
-    font-size: 15px;
-    line-height: 120%;
-    width: 100%;
-    max-width: 30ch;
-    text-wrap: balance;
-    line-height: 1.2;
-    white-space: wrap;
-  }
   form {
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-self: center;
-    width: 338px;
-    height: auto;
+  }
+  .privacy br {
+    display: inline;
   }
   .check {
     max-width: 338px;
-    height: auto;
+
     display: flex;
     flex-direction: row;
     margin-top: 15px;
@@ -246,9 +241,8 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 350px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
   .image_content {
-    width: 241px;
     display: flex;
     align-self: center;
     justify-self: center;
@@ -258,40 +252,94 @@
     display: flex;
     font-size: 40px;
     white-space: nowrap;
-    width: 241px;
-  }
-
-  label {
     max-width: 241px;
+  }
+  h3 {
+    display: none;
+  }
+  .information_collected {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  label {
+    font-family: "Palanquin", sans-serif;
+
+    font-size: 24px;
+    text-align: right;
+    white-space: nowrap;
+
+    max-width: 300px;
+    display: flex;
+
+    justify-content: flex-start;
   }
   .input-name {
-    width: 241px;
+    max-width: 300px;
+    height: 98px;
+    gap: 17px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
     display: flex;
-    align-self: center;
+    margin-bottom: 0px;
   }
   .input-email {
-    width: 241px;
+    max-width: 300px;
+    height: 98px;
+    gap: 17px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+    display: flex;
+    align-self: center;
+    justify-self: center;
   }
 
+  .my-help {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+  }
+  .input-help {
+    width: 300px;
+    height: 98px;
+    gap: 17px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+    display: flex;
+    align-self: center;
+    margin-bottom: 0px;
+  }
   p.help {
     display: flex;
     flex-direction: column;
-    width: 241px;
+    width: 300px;
   }
-  .input-help {
-    width: 241px;
+  .checkbox-content {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    max-width: 338px;
+    /*margin: 20px 0px;*/
   }
+
   form {
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-self: center;
-    width: 241px;
-    height: auto;
+    /*max-width: 338px;*/
+  }
+  .privacy br {
+    display: inline;
   }
   .check {
     max-width: 338px;
+
     display: flex;
     flex-direction: row;
     margin-top: 15px;
@@ -300,13 +348,11 @@
     display: flex;
     align-self: center;
   }
-  .after-green {
-    word-spacing: normal;
-    word-wrap: break-word;
-    white-space: wrap;
+  .check input {
+    margin-top: 3px;
+    flex-shrink: 0;
   }
-  p.privaty {
-    display: flex;
-    font-size: 15px;
+  .after-green {
+    white-space: wrap;
   }
 }

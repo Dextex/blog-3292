@@ -14,18 +14,12 @@
   height: 100vh;
 
   justify-self: center;
-  /*padding-left: 50px;
-  padding-right: 50px;
-    border: 3px solid black;
-  */
 }
 
 .image_content {
   display: flex;
   align-items: center;
   justify-content: center;
-  /*max-width: 338px;
-  height: 40px;*/
 }
 img {
   max-width: 40px;
@@ -41,17 +35,12 @@ h1 {
   color: #4ea487;
   margin: 0 10px;
   display: flex;
-  /* max-width: 241px;
-  height: 40px;
-  white-space: nowrap;*/
 }
 .description_from {
   display: flex;
   justify-content: center;
 }
 h3 {
-  /*max-width: 979px;
-  width: 100%;*/
   font-family: "Palanquin", sans-serif;
   display: flex;
   align-items: center;
@@ -121,7 +110,6 @@ p.email {
 }
 
 .input-help {
-  width: 1100px;
   height: 93px;
   background: transparent;
   border: none;
@@ -136,24 +124,14 @@ p.help {
 
 /* verification that the private security policy has been read and understood*/
 
-.privat-policy {
-  font-family: "Palanquin", sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: -3%;
-  text-align: center;
-  color: #4ea487;
-  padding: 0 0.5rem;
-}
-
 form {
   display: flex;
   flex-direction: column;
   align-self: center;
   justify-self: center;
-  width: 539px;
-  height: auto;
-  width: nowrap;
+}
+.privacy br {
+  display: none;
 }
 .check {
   display: flex;
@@ -162,8 +140,32 @@ form {
   margin-bottom: 15px;
   gap: 5px;
 }
+p.privaty {
+  text-wrap: nowrap;
+  max-width: 507px;
+}
+span.privat-policy {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -3%;
+  text-align: center;
+  color: #4ea487;
+  padding: 0 0.5rem;
+  width: 539px;
+}
+
+.privaty {
+  text-wrap: nowrap;
+  text-align: left;
+  max-width: 338px;
+}
+br.after-green {
+  white-space: nowrap;
+}
+
 .checkbox {
-  width: 18px;
+  max-width: 18px;
   height: 18px;
   border: 3px solid #54370d;
   display: flex;
@@ -172,17 +174,18 @@ form {
 }
 
 button {
-  width: 139px;
+  max-width: 139px;
   height: 48px;
   display: flex;
   align-self: center;
   justify-self: center;
   justify-content: center;
-  align-self: center;
+  align-content: center;
   align-items: center;
-  justify-items: center;
-  margin-top: 16px;
-  padding: 10px 20px;
+
+  padding-right: 24px;
+  padding-left: 24px;
+
   border: 2px solid;
   border-radius: 40px;
   color: #737373;
@@ -190,5 +193,4 @@ button {
   font-weight: 700;
   font-size: 24px;
   text-align: center;
-  cursor: pointer;
 }
