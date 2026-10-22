@@ -58,9 +58,19 @@ nav ul {
 }
 
 nav li {
+    position: relative;
     font-size: 24px;
     color: rgba(248, 245, 235, 1);
     list-style-type: none;
+}
+ul.link-list li img {
+    display: none;
+}
+
+ul.link-list li:hover img {
+    display: block;
+    position: absolute;
+    bottom: -5px;
 }
 
 footer {
