@@ -500,7 +500,7 @@ h4 {
     position: relative;
     flex: 0 0 6.48%;
     height: 100%;
-    margin-right: -0.39%;
+    margin-right: -0.4%;
     border-radius: clamp(16px, 4vw, 32px);
     box-shadow: 0 16px 35px rgba(35, 42, 60, 0.2);
     transform: scale(0.8);
@@ -511,23 +511,23 @@ h4 {
 }
 
 .image-slider-mobile input[value="one"]:checked ~ .slider-mobile-wrapper {
-    transform: translateX(-10.43%);
+    transform: translateX(-10%);
 }
 
 .image-slider-mobile input[value="two"]:checked ~ .slider-mobile-wrapper {
-    transform: translateX(-15.95%);
+    transform: translateX(-16%);
 }
 
 .image-slider-mobile input[value="three"]:checked ~ .slider-mobile-wrapper {
-    transform: translateX(-22.04%);
+    transform: translateX(-22%);
 }
 
 .image-slider-mobile input[value="four"]:checked ~ .slider-mobile-wrapper {
-    transform: translateX(-28.13%);
+    transform: translateX(-28%);
 }
 
 .image-slider-mobile input[value="five"]:checked ~ .slider-mobile-wrapper {
-    transform: translateX(-33.33%);
+    transform: translateX(-33%);
 }
 
 .image-slider-mobile
