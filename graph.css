@@ -36,7 +36,7 @@ h4 {
     font-size: 24px;
 }
 
-main {
+.graph-page main {
     padding-left: 120px;
     padding-right: 120px;
     display: flex;
@@ -63,7 +63,7 @@ main {
     max-width: 520px;
 }
 
-main > section {
+.graph-page main > section {
     display: flex;
     flex-direction: column;
     gap: 88px;

@@ -20,7 +20,7 @@
 }
 
 @media screen and (min-width: 700px) and (max-width: 1300px) {
-    main {
+    .hero-page main {
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -79,7 +79,7 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 860px) {
-    main {
+    .hero-page main {
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -104,6 +104,8 @@
     }
 }
 @media screen and (max-width: 675px) {
+
+    
     h4 {
         font-size: 18px;
     }
@@ -231,8 +233,8 @@
 @media screen and (max-width: 900px) {
     .carousel-page main {
         margin: 24px 0;
-        padding-right: 24px;
-        padding-left: 24px;
+        /* padding-right: 24px;
+        padding-left: 24px; */
     }
 
     .carousel-page .image-slider-section > header {
@@ -260,12 +262,7 @@
 }
 
 @media screen and (max-width: 900px) {
-    .carousel-page main {
-        margin-top: 8px;
-        padding-right: 16px;
-        padding-left: 16px;
-        gap: 80px;
-    }
+    
 
     .carousel-page .image-slider-section {
         width: 100%;
@@ -294,6 +291,7 @@
         background-position: center;
     }
 }
+
 
 @media screen and (max-width:1135px) {
     .tipps-ol{
@@ -344,6 +342,7 @@
 @media screen and (max-width:1038px) {
     .corousal-paragraph-2 {
     margin-left: 0px;
+    padding-bottom: 80px;
 }
     
 }
