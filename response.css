@@ -1,3 +1,7 @@
+.carousel-page main {
+    margin: 60px 0;
+}
+
 @media screen and (min-width: 1441px) {
     header {
         padding: 0px max(120px, calc(50% - 720px));
@@ -437,4 +441,89 @@
     .sozial-container {
         display: none;
     }
+}
+
+@media screen and (max-width: 900px) {
+    .carousel-page main {
+        margin: 24px 0;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .carousel-page .image-slider-section > header {
+        height: auto;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .carousel-page .image-slider-section h1 {
+        font-size: clamp(24px, 5.3vw, 40px);
+        line-height: 1.2;
+        text-align: center;
+        white-space: normal;
+    }
+
+    .carousel-page .slider {
+        width: min(1100px, 100%);
+    }
+
+    .carousel-page .slider_element {
+        width: 20%;
+        height: 100%;
+        transform: perspective(250px) rotateY(-20deg) translateX(20px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-page main {
+        margin-top: 8px;
+        padding-right: 16px;
+        padding-left: 16px;
+        gap: 80px;
+    }
+
+    .carousel-page .image-slider-section {
+        width: 100%;
+        gap: 24px;
+    }
+
+    .carousel-page .image-slider-section .slider {
+        display: none;
+    }
+
+    .carousel-page .image-slider-section h1 {
+        margin: 0;
+        font-size: clamp(24px, 5.7vw, 42px);
+        line-height: 1.15;
+    }
+
+    .carousel-page .image-slider-mobile {
+        display: flex;
+    }
+
+    .carousel-page .slider-mobile-wrapper {
+        height: 82%;
+    }
+
+    .carousel-page .slider-mobile-element {
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:1135px) {
+    .tipps-ol{
+    height: 240px;
+
+    
+}
+    
+}
+
+@media screen and (max-width:921px) {
+     .tipps-ol{
+    font-size: 20px;
+
+    
+}
+    
 }
