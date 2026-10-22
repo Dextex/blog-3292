@@ -73,8 +73,22 @@
         justify-content: center;
     }
 }
-
+@media screen and (min-width: 676px) {
+    .arrow_icon {
+        display: flex;
+    }
+    .arrow_icon_2 {
+        display: none;
+    }
+}
 @media screen and (max-width: 675px) {
+    h4 {
+        font-size: 18px;
+    }
+
+    .arrow_icon {
+        display: none;
+    }
     .rain-diagram {
         width: 345px;
         height: 183px;
