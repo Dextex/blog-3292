@@ -238,6 +238,13 @@
         gap:80px;
     }
 
+    .video-page main{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+
+
     .carousel-page .image-slider-section > header {
         height: auto;
         padding: 0;
