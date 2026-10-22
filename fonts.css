@@ -70,7 +70,12 @@ p {
     line-height: 120%;
     color: rgba(84, 55, 13, 1);
 }
-
+h3 {
+    font-family: Palanquin;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 100%;
+}
 h4 {
     font-family: Arima;
     font-weight: 500;
@@ -80,4 +85,15 @@ footer p {
     font-size: 18px;
     color: rgba(255, 255, 255, 1);
     white-space: nowrap;
+}
+
+.slider_a p {
+    font-size: 28px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 110%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
