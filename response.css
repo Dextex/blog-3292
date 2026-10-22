@@ -136,7 +136,7 @@
         width: 243px;
         height: 211px;
     }
-    main {
+    .graph-page main {
         gap: 40px;
         padding-left: 15px;
         padding-right: 15px;
@@ -233,8 +233,9 @@
 @media screen and (max-width: 900px) {
     .carousel-page main {
         margin: 24px 0;
-        /* padding-right: 24px;
-        padding-left: 24px; */
+        padding-right: 24px;
+        padding-left: 24px;
+        gap:80px;
     }
 
     .carousel-page .image-slider-section > header {
