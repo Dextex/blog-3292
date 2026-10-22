@@ -266,13 +266,22 @@ details[open] summary img {
     flex-direction: column;
     gap:64px;
     align-items: center;
-    height: 800px;
 }
+
+/* .stage{
+    width: 1100px;
+    height: 440px;
+    margin: 0 auto;
+
+} */
 
 .slider{
     display: flex;
-    gap:10px; 
     align-items: center;
+    height: 440px;
+    width: 1100px;
+    position: relative;
+    
 }
 
 .slider_element > img{
@@ -304,7 +313,7 @@ details[open] summary img {
     z-index: 1;
     width: 300px;
     height:440px;
-    object-fit:cover;
+    /* object-fit:cover; */
 
   
 
@@ -316,21 +325,26 @@ details[open] summary img {
   0px 18px 14px rgba(3, 7, 18, 0.06),
   0px 32px 24px rgba(3, 7, 18, 0.08);
 
-    transform: perspective(200px) rotateY(20deg) translateX(-20px);
+    transform: perspective(250px) rotateY(20deg) translateX(-20px);
     transform-origin: 50% 50%;
     transition:all 300ms ease-in-out;
 }
 
 .slider_element:hover{
     z-index: 2;
-    transform: perspective(200px) rotateY(0deg) translateX(0px) scaleX(1.2) scaleY(1.2);
+    transform: perspective(250px) rotateY(0deg) translateX(0px) scaleX(1.5) scaleY(1.2);
+
 
 }
 
 .slider_element:hover~.slider_element
 {
-    transform:perspective(200px) rotateY(-20deg) translateX(20px);
+    transform:perspective(250px) rotateY(-10deg) translateX(100px) translateY(-20px);
 }
+
+/* .slider_element ~ .slider_element:hover{
+    transform: translateX(10px);
+} */
 
 .carousal-paragraph-1 >p{
     font-family: 'Palanquin';
@@ -396,4 +410,87 @@ h4{
     margin-block-end: 0em;
     margin-block-start: 0em;
 
+}
+
+.image-slider-mobile{
+    position: relative;
+    width: 250px;
+    height:150px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.image-slider-mobile input{
+    z-index: 2;
+}
+
+.slider-mobile-wrapper{
+    z-index: 1;
+    width:500%;
+    height:100%;
+    position: absolute;
+    display: flex;
+    transition: all 1s ease-in-out;
+}
+
+.slider-mobile-element{
+    width: calc(100% / 5);
+    height:100%;
+}
+
+.image-slider-mobile input[value="one"]:checked ~ .slider-mobile-wrapper{
+    transform: translateX(calc(100%/5));
+
+}
+
+/* .image-slider-mobile input[value="two"]:checked ~ .slider-mobile-wrapper{
+    transform: translateX(calc(100%/5));
+
+}
+
+.image-slider-mobile input[value="three"]:checked ~ .slider-mobile-wrapper{
+    transform: translateX(calc(100%/5));
+
+}
+
+.image-slider-mobile input[value="four"]:checked ~ .slider-mobile-wrapper{
+    transform: translateX(calc(100%/5));
+
+}
+
+.image-slider-mobile input[value="five"]:checked ~ .slider-mobile-wrapper{
+    transform: translateX(calc(100%/5));
+
+} */
+
+.element1{
+    background-image: url(./assets/images/beach\ 05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.element2{
+    background-image: url(./assets/images/beach03.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+}
+
+.element3{
+    background-image: url(./assets/images/beach02.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+}
+
+.element4{
+    background-image: url(./assets/images/beach01.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+}
+
+.element5{
+    background-image: url(./assets/images/women-in-dress.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
 }
