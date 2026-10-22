@@ -5,7 +5,30 @@
     footer {
         padding: 0px max(120px, calc(50% - 720px));
     }
+    main {
+        padding: 0px max(120px, calc(50% - 720px));
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+    section {
+        padding: 0px max(120px, calc(50% - 720px));
+    }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1300px) {
+    main {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .two_diagram {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .copyright-logo {
         width: 18px;
@@ -41,6 +64,10 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     nav {
         display: none;
     }
@@ -48,8 +75,51 @@
         justify-content: center;
     }
 }
-
+@media screen and (min-width: 676px) {
+    .arrow_icon {
+        display: flex;
+    }
+    .arrow_icon_2 {
+        display: none;
+    }
+}
 @media screen and (max-width: 675px) {
+    h4 {
+        font-size: 18px;
+    }
+
+    .arrow_icon {
+        display: none;
+    }
+    .arrow_icon_2 {
+        left: -5px;
+    }
+    .rain-diagram {
+        width: 245px;
+        height: 183px;
+        border-radius: 30px;
+    }
+    .rain-section {
+        gap: 32px;
+    }
+    .two_diagram {
+        gap: 32px;
+    }
+    .small_diagram {
+        width: 243px;
+        height: 211px;
+    }
+    main {
+        gap: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
     nav {
         display: none;
     }
@@ -108,6 +178,20 @@
         align-items: center;
     }
 
+    h4 {
+        font-size: 16px;
+    }
+
+    .rain-diagram {
+        width: 245px;
+        height: 183px;
+        border-radius: 30px;
+    }
+
+    .small_diagram {
+        width: 243px;
+        height: 211px;
+    }
     .sozial-container {
         display: none;
     }
