@@ -1,64 +1,74 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive-contact-form.css" />
-    <title>Blog</title>
-  </head>
 
-  <body>
-    <section class="contact">
-      <div class="contact_form_wrapper">
-        <div class="image_content">
-          <img src="./Icons/person_pin.png" alt="Contact form" />
-          <h1>Contact form</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive-contact-form.css" />
+  <title>Blog</title>
+</head>
+
+<body>
+  <section class="contact">
+    <div class="contact_form_wrapper">
+      <div class="image_content">
+        <img src="./Icons/person_pin.png" alt="Contact form" />
+        <h1>Contact form</h1>
+      </div>
+      <!--<div class="headline_content"></div>-->
+
+      <div class="description_form">
+        <h3>
+          Have a question or an idea to collaborate? <br />
+          Get in touchI'd love to hear from you and explore how we can work
+          together.
+        </h3>
+      </div>
+      <div class="information_collected">
+        <div class="my-name">
+          <p class="name">
+            <label>What's your name?</label>
+            <input class="input-name" type="text" />
+          </p>
         </div>
-        <!--<div class="headline_content"></div>-->
 
-        <div class="description_form">
-          <h3>
-            Have a question or an idea to collaborate? <br />
-            Get in touchI'd love to hear from you and explore how we can work
-            together.
-          </h3>
-        </div>
-        <div class="information_collected">
-          <div class="my-info">
-            <label>What's your name? </label>
-            <input class="input" type="text" />
-            <!-- <input class="input-email" type="text"> -->
-          </div>
-
-          <div class="my-info">
+        <div class="my-name">
+          <p class="email">
             <label>What's your email?</label>
-            <input class="input" type="text" />
-          </div>
-        </div>
-
-        <div class="my-info">
-          <label>How can I help?</label>
-          <input class="input-help" type="text" />
-        </div>
-
-        <div class="checkbox-container">
-          <div class="container">
-            <label class="checkbox-policy">
-              <input class="checkbox" />
-              <span class="checkmark"></span>
-              <p>
-                I've read the<span>privacy policy</span>and agree to the
-                processing of my data as outlined.
-              </p>
-            </label>
-          </div>
-
-          <div class="send-info">
-            <button class="button">Send</button>
-          </div>
+            <input class="input-email" type="text" />
+          </p>
         </div>
       </div>
-    </section>
-  </body>
+
+      <div class="my-help">
+        <p class="help">   
+          <label>How can I help?</label>
+          <input class="input-help" type="text" />
+        </p>
+      </div>
+      <form>
+        <div class="check">
+          <input class="checkbox" name="accept">
+           <span class="checkmark"></span>
+          <p class="privaty"> I've read the<span class="privat-policy">privacy policy</span>and agree <br class=" after-green"> to the processing of my data as outlined.</p>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+
+    </div>
+    </div>
+  </section>
+</body>
+
 </html>
+
+<!--
+width: 338;
+height: 40;
+angle: 0 deg;
+opacity: 1;
+gap: 8px;
+
+
+-->

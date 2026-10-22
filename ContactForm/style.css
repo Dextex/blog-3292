@@ -7,26 +7,29 @@
   margin: 0px;
   box-sizing: border-box;
 }
-body {
-  min-width: 320px;
-}
 
 /* Feature Contact form code*/
 .contact_form_wrapper {
   width: auto;
   height: 100vh;
-  /*border: 3px solid black;*/
+
   justify-self: center;
+  /*padding-left: 50px;
+  padding-right: 50px;
+    border: 3px solid black;
+  */
 }
 
 .image_content {
   display: flex;
   align-items: center;
   justify-content: center;
+  /*max-width: 338px;
+  height: 40px;*/
 }
 img {
-  max-width: 48px;
-  padding: 0 2px;
+  max-width: 40px;
+  padding: 0 1px;
 }
 
 /* Questions relating to customers_ Name Email, Help */
@@ -36,14 +39,19 @@ h1 {
   font-weight: 700;
   text-align: center;
   color: #4ea487;
-  padding-left: 15px;
-  white-space: nowrap;
+  margin: 0 10px;
+  display: flex;
+  /* max-width: 241px;
+  height: 40px;
+  white-space: nowrap;*/
 }
 .description_from {
   display: flex;
   justify-content: center;
 }
 h3 {
+  /*max-width: 979px;
+  width: 100%;*/
   font-family: "Palanquin", sans-serif;
   display: flex;
   align-items: center;
@@ -65,7 +73,9 @@ h3 {
   justify-self: center;
   justify-self: center;
   align-items: center;
-  width: 1100px;
+  margin-top: 50px;
+  gap: 50px;
+  max-width: 1100px;
 }
 
 label {
@@ -76,52 +86,57 @@ label {
   text-align: center;
   white-space: nowrap;
 }
-.my-info {
-  width: 527px;
-  height: 94px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  background: transparent;
-  border-bottom: 1px solid #000000;
-}
 
-.input {
+.my-name {
+  gap: 15px;
+}
+.input-name {
+  width: 527px;
+  height: 93px;
+  gap: 17px;
   background: transparent;
   border: none;
-  border-bottom: 1px solid #000000;
+  border-bottom: 2px solid #000000;
   display: flex;
-  width: 527px;
-  height: 65px;
-  border: none;
+  margin-bottom: 93px;
 }
-
-.my-info {
-  width: auto;
-  height: 94px;
+p.name {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  background: transparent;
-  border-bottom: 1px solid #000000;
-  margin-top: 65px;
 }
+
+.input-email {
+  width: 527px;
+  height: 93px;
+  gap: 17px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #000000;
+  display: flex;
+  margin-bottom: 93px;
+}
+p.email {
+  display: flex;
+  flex-direction: column;
+}
+
 .input-help {
+  width: 1100px;
+  height: 93px;
   background: transparent;
   border: none;
-  border-bottom: 1px solid #000000;
+  border-bottom: 2px solid #000000;
   display: flex;
-  width: 1096px;
-  height: 65px;
-  border: none;
-  gap: 40px;
+}
+
+p.help {
+  display: flex;
+  flex-direction: column;
 }
 
 /* verification that the private security policy has been read and understood*/
 
-span {
+.privat-policy {
   font-family: "Palanquin", sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -131,74 +146,49 @@ span {
   padding: 0 0.5rem;
 }
 
-p {
-  font-family: "Palanquin", sans-serif;
-  display: flex;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 120%;
-}
-.br-mobile {
-  display: none;
-}
-.checkbox-container {
-  display: flex;
+form {
   display: flex;
   flex-direction: column;
-  justify-self: center;
   align-self: center;
-
-  justify-items: center;
-  align-items: center;
-  margin-top: 20px;
+  justify-self: center;
+  width: 539px;
+  height: auto;
+  width: nowrap;
 }
-
-.container {
-  /*max-width: 24px;*/
+.check {
   display: flex;
-  align-items: center;
-  justify-items: center;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  gap: 5px;
 }
-
-.checkbox-policy {
-  display: flex;
-  align-items: center;
-  position: relative;
-  cursor: pointer;
-}
-
 .checkbox {
   width: 18px;
   height: 18px;
   border: 3px solid #54370d;
   display: flex;
-  justify-self: left;
-  padding-right: 10px;
+  align-self: center;
+  justify-self: center;
 }
-/*Confirmation of the contact form*/
-.send-info {
-  width: 200px;
+
+button {
+  width: 139px;
   height: 48px;
   display: flex;
   align-self: center;
   justify-self: center;
-  margin: 40px 40px;
-  padding: 0 24px;
-  cursor: pointer;
-}
-.button {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  justify-items: center;
-
   justify-content: center;
-  font-family: "Arima", system-ui;
-  font-size: 24px;
-  font-weight: 700;
+  align-self: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 16px;
+  padding: 10px 20px;
   border: 2px solid;
-  margin: 5px 5px;
   border-radius: 40px;
-  text-align: center;
   color: #737373;
+  font-family: "Arima", system-ui;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
 }
