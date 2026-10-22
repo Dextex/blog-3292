@@ -60,11 +60,43 @@ nav ul {
 }
 
 nav li {
+    position: relative;
     font-size: 24px;
     color: rgba(248, 245, 235, 1);
     list-style-type: none;
 }
+nav a {
+    color: rgba(248, 245, 235, 1);
+    text-decoration: none;
+}
 
+nav li :active {
+    color: rgba(241, 201, 83, 1);
+}
+
+ul.link-list li img {
+    display: none;
+}
+
+ul.link-list .highlights:hover img {
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+}
+
+ul.link-list .nav-element-faq:hover img {
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+}
+ul.link-list .nav-element-contact:hover img {
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+}
 footer {
     display: flex;
     justify-content: space-between;
