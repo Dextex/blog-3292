@@ -115,6 +115,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 88px;
+    width: 100%;
 }
 
 .describtion-text {
