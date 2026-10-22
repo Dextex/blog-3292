@@ -70,3 +70,8 @@ p {
     line-height: 120%;
     color: rgba(84, 55, 13, 1);
 }
+
+h4 {
+    font-family: Arima;
+    font-weight: 500;
+}

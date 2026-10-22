@@ -73,6 +73,7 @@ main > section {
     max-width: 500px;
     position: relative;
     display: flex;
+    flex-direction: column;
     gap: 48px;
     align-items: center;
     text-align: center;
