@@ -26,8 +26,9 @@ body {
   align-content: center;
   margin: 50px 50px;
   gap: 30px;
+  background-color: white;
 
-  /*border: 1px solid black;*/
+  border: 1px solid black;
 }
 .left-content-wrapper {
   width: 100%;
@@ -36,14 +37,8 @@ body {
   justify-content: space-between;
 }
 .left-content {
-  width: 902px;
-  /*height: 391px;*/
   display: flex;
   flex-direction: column;
-
-  align-items: center;
-  justify-self: center;
-  /*gap: 20px;*/
 }
 .befor-headline {
   width: 100%;
@@ -51,20 +46,14 @@ body {
 .befor-headline > h2 {
   font-family: "Palanquin", sans-serif;
   font-size: 40px;
-
   color: #4ea487;
   display: flex;
 }
 
-.headline {
-  /*max-width: 902px;
-  height: 154px;*/
-  padding: 0px;
-}
 .befor-headline > h1 {
   font-family: "Arima", system-ui;
-  font-size: 64px;
   font-weight: 700;
+  font-size: 64px;
 
   color: #f1c953;
   white-space: wrap;
@@ -77,16 +66,19 @@ body {
 .headline_description > p {
   font-family: "Palanquin", sans-serif;
   font-size: 32px;
+
+  line-height: 120%;
+  letter-spacing: -3%;
   color: #54370d;
   display: flex;
   justify-items: center;
   align-items: center;
   justify-self: center;
   text-align: justify;
-  line-height: 1.3;
 }
 
 .media-info {
+  max-width: 575px;
   display: flex;
   flex-direction: row;
   justify-self: center;
@@ -99,7 +91,7 @@ body {
   gap: 2px;
 }
 .calendar-month > img {
-  width: 16px;
+  max-width: 16px;
   max-height: 18px;
 }
 .calendar-month > p {
@@ -109,10 +101,18 @@ body {
   line-height: 120%;
   letter-spacing: 0%;
 }
-
+.right-content-wrapper {
+  max-width: 272px;
+  max-width: 389px;
+  display: contents;
+}
+.autor-content {
+  max-width: 205px;
+  max-height: 38px;
+}
 .rigth-content {
-  width: 299px;
-  height: 408px;
+  max-width: 299px;
+  max-height: 408px;
   gap: 16px;
   border-radius: 30px;
   padding: 16px;
@@ -120,25 +120,37 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-self: center;
   justify-content: right;
 }
-
+.descritpion-card {
+  max-width: 240px;
+  max-height: 221px;
+}
 .avatar-content {
-  width: 120px;
-  height: 120px;
+  max-width: 120px;
+  max-height: 120px;
+}
+.avatar-content > img {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 3px;
 }
 .descritpion-card {
-  width: 240px;
-  height: 221px;
+  max-width: 240px;
+  max-height: 221px;
 }
-.autor-content {
-  width: 205px;
-  height: 38px;
+
+.about-autor {
+  max-width: 240px;
+  max-height: 171px;
 }
+
 .autor-content > h2 {
   color: #54370d;
   font-family: "Arima", system-ui;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
 
   display: flex;
@@ -158,20 +170,18 @@ body {
   text-align: left;
   margin-bottom: 15px;
   margin-top: -1px;
+  gap: 6px;
 }
 
-.about-autor {
-  width: 240px;
-  height: 171px;
-}
 .about-autor > p {
+  max-width: 240px;
   font-family: "Palanquin", sans-serif;
   display: flex;
   font-size: 16px;
   font-weight: 400;
-  line-height: 120%;
+  line-height: 100%;
   letter-spacing: 0%;
   color: #54370d;
-  margin-top: 12px;
-  text-align: justify;
+  margin-top: 15px;
+  text-align: left;
 }
