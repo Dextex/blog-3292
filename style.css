@@ -17,16 +17,23 @@
 }
 
 * {
-    margin: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
+<<<<<<< HEAD
 h1 {
     color: rgba(84, 55, 13, 1);
     font-size: 60px;
     line-height: 120%;
     white-space: nowrap;
+=======
+main{
+    margin:60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+>>>>>>> 408e945 (feat: Added the pro-tipps section in carausal page)
 }
 
 .header-background {
@@ -259,6 +266,7 @@ details[open] summary img {
     flex-direction: column;
     gap:64px;
     align-items: center;
+    height: 800px;
 }
 
 .slider{
@@ -322,4 +330,62 @@ details[open] summary img {
 .slider_element:hover~.slider_element
 {
     transform:perspective(200px) rotateY(-20deg) translateX(20px);
+}
+
+.carousal-paragraph-1 >p{
+    font-family: 'Palanquin';
+    font-size: 24px;
+
+}
+
+.corousal-paragraph-2{
+    font-family: 'Palanquin';
+    align-items: center;
+    font-size: 24px;
+    margin-left: 102px;
+}
+
+.corousal-paragraph-2 p{
+    margin:0 0 28px;
+}
+
+.corousal-paragraph-2 ol{
+    padding-left: 36px;
+}
+
+.tipps-heading{
+    background-color: #4EA487;
+    width: 190px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left:20px;
+
+    
+}
+
+h4{
+    font-family: 'Palanquin';
+    color:#F1C953;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.tipps-ol{
+    display: grid;
+    place-items:center;
+     padding-left: 36px;
+    background-color:#4EA48733;
+    font-family: 'Palanquin';
+    font-size: 24px;
+    border-radius: 30px;
+    height: 200px;
+
+    
+}
+
+.tipps-ol ol{
+    align-items: center;
 }
