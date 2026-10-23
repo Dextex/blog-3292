@@ -24,6 +24,20 @@
     line-height: 120%;
 }
 
+.mobile-Control {
+    background-color: rgba(241, 201, 83, 1);
+}
+.mobile-control-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding: 24px 25px;
+}
+
+.mobile-Control img {
+    color: #4ea487;
+}
+
 h1 {
     color: rgba(84, 55, 13, 1);
     font-size: 60px;

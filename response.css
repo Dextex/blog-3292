@@ -14,7 +14,11 @@
         padding: 0px max(120px, calc(50% - 720px));
     }
 }
-
+@media screen and (min-width: 861px) {
+    .mobile-Control {
+        display: none;
+    }
+}
 @media screen and (min-width: 700px) and (max-width: 1300px) {
     main {
         padding-top: 60px;
@@ -84,11 +88,14 @@
         padding-right: 15px;
     }
     main {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
-    nav {
+    header nav {
         display: none;
+    }
+    .mobile-Control {
+        display: block;
     }
     header {
         justify-content: center;
@@ -97,6 +104,9 @@
         width: 500px;
         top: 80px;
         left: 15px;
+    }
+    footer {
+        padding: 30px 20px 30px 20px;
     }
 }
 @media screen and (min-width: 676px) {
@@ -113,8 +123,8 @@
         padding-right: 15px;
     }
     main {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     h4 {
         font-size: 18px;
@@ -157,8 +167,11 @@
     p {
         font-size: 16px;
     }
-    nav {
+    header nav {
         display: none;
+    }
+    .mobile-Control {
+        display: block;
     }
     header {
         justify-content: center;
@@ -210,6 +223,10 @@
 }
 
 @media screen and (max-width: 349px) {
+    .mobile-control-wrapper {
+        gap: 16px;
+        padding: 12px 13px;
+    }
     .slider_content {
         width: 240px;
         top: 100px;
