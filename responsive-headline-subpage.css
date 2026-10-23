@@ -150,7 +150,6 @@
         letter-spacing: 0%;
         display: flex;
         align-items: center;
-        justify-self: center;
     }
 
     .headline_description p {
@@ -215,7 +214,6 @@
         font-size: 35px;
         line-height: 1.1;
         text-wrap: balance;
-        justify-self: center;
         max-width: 100ch;
         margin-bottom: 10px;
         flex-wrap: nowrap;
