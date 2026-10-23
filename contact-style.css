@@ -26,7 +26,7 @@ img {
 }
 
 /* Questions relating to customers_ Name Email, Help */
-h1 {
+.image_content h2 {
     font-family: "Arima", system-ui;
     font-size: 64px;
     font-weight: 700;
