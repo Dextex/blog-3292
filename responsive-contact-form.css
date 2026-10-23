@@ -1,0 +1,357 @@
+/* Responsive Design withd width from 480px, 800px, 1200px */
+
+@media screen and (min-width: 1100px) and (max-width: 1440px) {
+    .contact {
+        margin: 0px;
+        padding: 0px;
+    }
+    .contact_form_wrapper {
+        flex-direction: row;
+    }
+
+    .image_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h1 {
+        display: flex;
+        font-size: 40px;
+        white-space: nowrap;
+    }
+    .description_form h3 {
+        display: flex;
+        white-space: nowrap;
+        max-width: 56ch;
+        text-wrap: balance;
+    }
+
+    .information_collected {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+
+    label {
+        font-family: "Palanquin", sans-serif;
+        display: flex;
+        font-size: 24px;
+        text-align: left;
+        margin-top: 50px;
+        white-space: nowrap;
+        overflow-wrap: break-word;
+    }
+    .check {
+        max-width: 539px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        gap: 5px;
+    }
+
+    br.after-green {
+        white-space: nowrap;
+    }
+    p.privacy {
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1100px) {
+    .image_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h1 {
+        display: flex;
+        font-size: 40px;
+        white-space: nowrap;
+        max-width: 241px;
+    }
+
+    .description_form h3 {
+        display: none;
+    }
+
+    .information_collected {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .my-help {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        font-family: "Palanquin", sans-serif;
+        display: flex;
+        font-size: 24px;
+        text-align: left;
+        white-space: nowrap;
+        overflow-wrap: break-word;
+        max-width: 338px;
+        margin-top: 50px;
+    }
+
+    .checkbox-content {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        max-width: 335px;
+    }
+    .input-name {
+        width: 527px;
+        height: 93px;
+        gap: 17px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #000000;
+        display: flex;
+        margin-bottom: 0px;
+    }
+    .input-email {
+        width: 527px;
+        height: 93px;
+        gap: 17px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #000000;
+        display: flex;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 649px) {
+    .image_content {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        justify-content: center;
+    }
+    h1 {
+        display: flex;
+        font-size: 40px;
+        white-space: nowrap;
+        max-width: 241px;
+    }
+    .description_form h3 {
+        display: none;
+    }
+    .information_collected {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    label {
+        font-family: "Palanquin", sans-serif;
+
+        font-size: 24px;
+        text-align: right;
+        white-space: nowrap;
+
+        max-width: 338px;
+        display: flex;
+
+        justify-content: flex-start;
+    }
+    .input-name {
+        max-width: 338px;
+        height: 98px;
+        gap: 17px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #000000;
+        display: flex;
+        margin-bottom: 0px;
+    }
+    .input-email {
+        max-width: 338px;
+        height: 98px;
+        gap: 17px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #000000;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .my-help {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+    }
+    .input-help {
+        width: 338px;
+
+        gap: 17px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #000000;
+        display: flex;
+        align-self: center;
+        margin-bottom: 0px;
+    }
+    p.help {
+        display: flex;
+        flex-direction: column;
+        width: 337px;
+    }
+    .checkbox-content {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        max-width: 338px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+    }
+    .privacy br {
+        display: inline;
+    }
+    .check {
+        max-width: 338px;
+
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        gap: 5px;
+        display: flex;
+        align-self: center;
+    }
+    .check input {
+        margin-top: 3px;
+        flex-shrink: 0;
+    }
+    .after-green {
+        white-space: wrap;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .image_content {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        justify-content: center;
+    }
+    h1 {
+        display: flex;
+        font-size: 40px;
+        white-space: nowrap;
+        max-width: 241px;
+    }
+    .description_form h3 {
+        display: none;
+    }
+    .information_collected {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    label {
+        font-family: "Palanquin", sans-serif;
+
+        font-size: 24px;
+        text-align: right;
+        white-space: nowrap;
+
+        max-width: 300px;
+        display: flex;
+
+        justify-content: flex-start;
+    }
+    .input-name {
+        max-width: 300px;
+        height: 98px;
+        gap: 17px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #000000;
+        display: flex;
+        margin-bottom: 0px;
+    }
+    .input-email {
+        max-width: 300px;
+        height: 98px;
+        gap: 17px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #000000;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .my-help {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+    }
+    .input-help {
+        width: 300px;
+        height: 98px;
+        gap: 17px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #000000;
+        display: flex;
+        align-self: center;
+        margin-bottom: 0px;
+    }
+    p.help {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .checkbox-content {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        max-width: 338px;
+        /*margin: 20px 0px;*/
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+        /*max-width: 338px;*/
+    }
+    .privacy br {
+        display: inline;
+    }
+    .check {
+        max-width: 338px;
+
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        gap: 5px;
+        display: flex;
+        align-self: center;
+    }
+    .check input {
+        margin-top: 3px;
+        flex-shrink: 0;
+    }
+    .after-green {
+        white-space: wrap;
+    }
+}

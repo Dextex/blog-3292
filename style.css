@@ -24,6 +24,20 @@
     line-height: 120%;
 }
 
+.mobile-Control {
+    background-color: rgba(241, 201, 83, 1);
+}
+.mobile-control-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding: 24px 25px;
+}
+
+.mobile-Control img {
+    color: #4ea487;
+}
+
 h1 {
     color: rgba(84, 55, 13, 1);
     font-size: 60px;
@@ -34,6 +48,8 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .header-background {
@@ -136,6 +152,7 @@ main {
 }
 
 .faqs {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -427,8 +444,6 @@ h4 {
     font-size: 24px;
     border-radius: 30px;
     height: fit-content;
-
-    
 }
 
 .tipps-ol ol {
@@ -437,7 +452,7 @@ h4 {
     text-wrap: auto;
 }
 
-.pro-tipps-section{
+.pro-tipps-section {
     padding: unset;
 }
 
@@ -448,7 +463,7 @@ h4 {
     margin-block-start: 0em;
 }
 
- .image-slider-mobile{
+.image-slider-mobile {
     flex-direction: unset;
     position: relative;
     width: min(686px, calc(100vw - 48px));
