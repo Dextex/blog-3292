@@ -205,6 +205,7 @@ h2 {
 
 summary {
     list-style: none;
+    pointer-events: none;
     /* display: flex;
     justify-content: space-between;
     align-items: center;
@@ -415,6 +416,9 @@ h1 {
 }
 
 .tipps-heading {
+    display: flex;
+    justify-content: center;
+    gap:10px;
     background-color: #4ea487;
     width: 200px;
     height: 66px;
