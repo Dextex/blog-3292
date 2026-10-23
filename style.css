@@ -371,7 +371,6 @@ h1 {
     transform: perspective(250px) rotateY(-10deg) translateX(100px)
         translateY(-20px);
 }
-
 /* .slider_element ~ .slider_element:hover{
     transform: translateX(10px);
 } */
