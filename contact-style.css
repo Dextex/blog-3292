@@ -40,7 +40,7 @@ h1 {
     display: flex;
     justify-content: center;
 }
-h3 {
+.description_form h3 {
     font-family: "Palanquin", sans-serif;
     display: flex;
     align-items: center;
@@ -52,6 +52,7 @@ h3 {
     text-align: center;
     line-height: 1.2;
     white-space: nowrap;
+    line-height: 110%;
 }
 
 .information_collected {
@@ -174,6 +175,7 @@ br.after-green {
 }
 
 button {
+    width: 100%;
     max-width: 139px;
     height: 48px;
     display: flex;
@@ -193,4 +195,10 @@ button {
     font-weight: 700;
     font-size: 24px;
     text-align: center;
+}
+
+.privacy {
+    font-family: Palanquin;
+    font-size: 15px;
+    line-height: 120%;
 }
