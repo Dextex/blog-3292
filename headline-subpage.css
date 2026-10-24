@@ -1,156 +1,209 @@
 /* left-content style */
 .main-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    /*border: 1px solid black;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  /* border: 1px solid black;*/
 }
 .left-content-wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 .left-content {
-    width: 902px;
-    /*height: 391px;*/
-    display: flex;
-    flex-direction: column;
+  width: 902px;
 
-    align-items: center;
-    justify-self: center;
-    /*gap: 20px;*/
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-self: center;
 }
 .befor-headline {
-    width: 100%;
+  width: 100%;
 }
 .befor-headline > h2 {
-    font-family: "Palanquin", sans-serif;
-    font-size: 40px;
-
-    color: #4ea487;
-    display: flex;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+  font-family: "Palanquin", sans-serif;
+  font-size: 40px;
+  font-size: 20px;
+  color: #4ea487;
+  display: flex;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
-.headline {
-    /*max-width: 902px;
+.befor-headline {
+  /*max-width: 902px;
   height: 154px;*/
-    padding: 0px;
+  padding: 0px;
 }
 .befor-headline > h1 {
-    font-family: "Arima", system-ui;
-    font-size: 64px;
-    font-weight: 700;
+  font-family: "Arima", system-ui;
+  font-size: 64px;
+  font-weight: 700;
 
-    color: #f1c953;
-    white-space: wrap;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+  color: #f1c953;
+  white-space: wrap;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .headline_description {
-    width: 100%;
+  width: 100%;
 }
 .headline_description > p {
-    font-family: "Palanquin", sans-serif;
-    font-size: 32px;
-    color: #54370d;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    text-align: justify;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+  font-family: "Palanquin", sans-serif;
+  font-size: 32px;
+  font-family: 400;
+  color: #54370d;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: justify;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .media-info {
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+  gap: 10px;
 }
+.info-top {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+  gap: 10px;
+}
+.info-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+  gap: 10px;
+}
+
 .calendar-month {
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
 }
 .calendar-month > img {
-    width: 16px;
-    max-height: 18px;
+  max-width: 16px;
 }
 .calendar-month > p {
-    font-family: "Palanquin", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
-    letter-spacing: 0%;
+  font-family: "Palanquin", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+.calendar-time {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.calendar-time > img {
+  max-width: 15px;
+  height: 7px;
+  align-items: center;
+  align-self: center;
+}
+.calendar-time > p {
+  font-size: 16px;
+}
+
+.calendar-read {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.calendar-read > img {
+  max-width: 16px;
+  height: 18px;
+}
+.calendar-read > p {
+  font-size: 16px;
+}
+
+.calendar-share {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.calendar-share > img {
+  max-width: 16px;
+  height: 18px;
+}
+.calendar-share > p {
+  font-size: 16px;
 }
 
 .rigth-content {
-    width: 299px;
-    height: 408px;
-    gap: 16px;
-    border-radius: 30px;
-    padding: 16px;
-    background-color: #4ea48733;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: right;
+  /*width: 299px;
+  height: 408px;*/
+  gap: 16px;
+  border-radius: 30px;
+  padding: 16px;
+  background-color: #4ea48733;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: right;
 }
 
 .avatar-content {
-    width: 120px;
-    height: 120px;
+  width: 120px;
+  height: 120px;
 }
 .descritpion-card {
-    width: 240px;
-    height: 221px;
+  width: 240px;
+  height: 221px;
 }
 .autor-content {
-    width: 205px;
-    height: 38px;
+  width: 205px;
+  height: 38px;
 }
 .autor-content > h2 {
-    color: #54370d;
-    font-family: "Arima", system-ui;
-    font-size: 24px;
-    font-weight: 700;
+  color: #54370d;
+  font-family: "Arima", system-ui;
+  font-size: 24px;
+  font-weight: 700;
 
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    justify-items: center;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 .autor-content > h3 {
-    color: #54370d;
-    font-family: "Arima", system-ui;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 120%;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    text-align: left;
-    margin-bottom: 15px;
-    margin-top: -5px;
-    margin-block-end: 0em;
+  color: #54370d;
+  font-family: "Arima", system-ui;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-top: -5px;
+  margin-block-end: 0em;
 }
 
 .about-autor {
-    width: 240px;
-    height: 171px;
+  width: 240px;
+  height: 171px;
 }
 .about-autor > p {
-    font-family: "Palanquin", sans-serif;
-    display: flex;
-    font-size: 16px;
-    font-weight: 400;
-    color: #54370d;
+  font-family: "Palanquin", sans-serif;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  color: #54370d;
 }
