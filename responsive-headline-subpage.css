@@ -32,22 +32,12 @@
   }
 
   .media-info {
-    margin: 5px 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-items: center;
     flex-wrap: nowrap;
     width: fit-content;
-    gap: 5px;
-  }
-
-  .info-top {
-    gap: 5px;
-  }
-
-  .info-bottom {
-    gap: 5px;
   }
 
   .calendar-month {
@@ -70,7 +60,7 @@
   }
 
   .calendar-time > img {
-    max-width: 16px;
+    max-width: 20px;
     height: 7px;
   }
 
@@ -163,19 +153,6 @@
     gap: 5px;
   }
 
-  .info-top {
-    max-width: 290px;
-    gap: 5px;
-  }
-
-  .info-bottom {
-    gap: 5px;
-  }
-
-  .calendar-month {
-    gap: 2px;
-  }
-
   .calendar-month > img {
     max-width: 16px;
   }
@@ -192,7 +169,7 @@
   }
 
   .calendar-time > img {
-    max-width: 16px;
+    max-width: 20px;
     height: 7px;
   }
 
@@ -285,15 +262,6 @@
     width: fit-content;
     max-width: 273px;
     justify-self: center;
-    gap: 5px;
-  }
-
-  .info-top {
-    gap: 5px;
-    max-width: 200px;
-  }
-
-  .info-bottom {
     gap: 5px;
   }
 
@@ -459,14 +427,6 @@
     max-width: 273px;
     justify-self: center;
     gap: 2px;
-  }
-
-  .info-top {
-    gap: 5px;
-  }
-
-  .info-bottom {
-    gap: 5px;
   }
 
   .calendar-month {
@@ -653,15 +613,7 @@
     justify-self: center;
     gap: 2px;
   }
-  /*
-  .info-top {
-    max-width: 0px;
-  }
 
-  .info-bottom {
-    max-width: 0px;
-  }
-*/
   .calendar-month {
     display: flex;
     flex-direction: row;
@@ -673,7 +625,7 @@
   }
 
   .calendar-month > img {
-    max-width: 16pxpx;
+    max-width: 16px;
     height: 18px;
   }
 
@@ -702,7 +654,6 @@
     flex-direction: column;
     align-self: center;
     justify-self: center;
-
     gap: 15px;
   }
 
