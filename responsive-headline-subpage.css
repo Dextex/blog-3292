@@ -41,14 +41,6 @@
     gap: 5px;
   }
 
-  .info-top {
-    gap: 5px;
-  }
-
-  .info-bottom {
-    gap: 5px;
-  }
-
   .calendar-month {
     gap: 2px;
   }
@@ -172,15 +164,6 @@
     width: 630px;
   }
 
-  .info-top {
-    max-width: 290px;
-    gap: 5px;
-  }
-
-  .info-bottom {
-    gap: 5px;
-  }
-
   .calendar-month {
     gap: 2px;
   }
@@ -201,7 +184,7 @@
   }
 
   .calendar-time > img {
-    max-width: 16px;
+    max-width: 20px;
     height: 7px;
   }
 
@@ -300,18 +283,7 @@
   }
 
   .media-info {
-    margin: 5px 0px;
-
     align-items: center;
-  }
-
-  .info-top {
-    gap: 5px;
-    max-width: 200px;
-  }
-
-  .info-bottom {
-    gap: 5px;
   }
 
   .calendar-month {
@@ -385,11 +357,6 @@
     padding-left: 8px;
   }
 
-  /*
-  .descritpion-card {
-    max-width: 200px;
-    height: 200px;
-  }*/
   .autor-content {
     width: 100%;
   }
@@ -491,18 +458,6 @@
     justify-self: center;
     gap: 2px;
     margin-bottom: 40px;
-  }
-
-  .info-top {
-    gap: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    align-items: center;
-  }
-
-  .info-bottom {
-    gap: 5px;
   }
 
   .calendar-month {
