@@ -23,6 +23,7 @@ iframe {
     display: flex;
     flex-direction: column;
     gap: 48px;
+    width: 100%;
 }
 .left-text {
     text-align: left;

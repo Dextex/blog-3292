@@ -27,11 +27,6 @@
 
 /* Questions relating to customers_ Name Email, Help */
 .image_content h2 {
-    font-family: "Arima", system-ui;
-    font-size: 64px;
-    font-weight: 700;
-    text-align: center;
-    color: #4ea487;
     margin: 0 10px;
     display: flex;
 }
@@ -56,12 +51,12 @@
 
 .information_collected {
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-self: center;
     justify-self: center;
     justify-self: center;
-    align-items: center;
     margin-top: 50px;
     gap: 50px;
     max-width: 1100px;
@@ -78,9 +73,10 @@ label {
 
 .my-name {
     gap: 15px;
+    max-width: 400px;
+    width: 100%;
 }
 .input-name {
-    width: 527px;
     height: 93px;
     gap: 17px;
     background: transparent;
@@ -88,6 +84,7 @@ label {
     border-bottom: 2px solid #000000;
     display: flex;
     margin-bottom: 93px;
+    width: 100%;
 }
 p.name {
     display: flex;
@@ -95,7 +92,6 @@ p.name {
 }
 
 .input-email {
-    width: 527px;
     height: 93px;
     gap: 17px;
     background: transparent;
@@ -103,10 +99,12 @@ p.name {
     border-bottom: 2px solid #000000;
     display: flex;
     margin-bottom: 93px;
+    width: 100%;
 }
 p.email {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .input-help {

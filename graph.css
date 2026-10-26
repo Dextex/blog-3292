@@ -29,6 +29,9 @@ h3 {
     flex-direction: column;
     gap: 15px;
 }
+.main-flexbox {
+    width: 100%;
+}
 
 h4 {
     text-align: center;
