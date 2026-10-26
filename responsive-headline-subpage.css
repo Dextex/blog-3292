@@ -463,7 +463,6 @@
         font-size: 40px;
         line-height: 80%;
         letter-spacing: 0%;
-        max-width: 12ch;
         display: flex;
         align-items: center;
     }
@@ -480,7 +479,7 @@
     .left-content-wrapper {
         display: flex;
         flex-direction: column;
-        gap: 2px;
+        gap: 15px;
     }
 
     .media-info {
@@ -621,7 +620,6 @@
         font-weight: 700;
         font-size: 40px;
         line-height: 80%;
-        max-width: 12ch;
         letter-spacing: 0%;
         display: flex;
         align-items: center;

@@ -114,6 +114,7 @@
         position: sticky;
         bottom: 0px;
         display: block;
+        z-index: 100;
     }
     header {
         justify-content: center;
@@ -195,6 +196,7 @@
         bottom: 0px;
         display: block;
         position: sticky;
+        z-index: 100;
     }
     header {
         justify-content: center;
@@ -253,6 +255,7 @@
     .mobile-Control {
         bottom: 0px;
         position: sticky;
+        z-index: 100;
     }
 
     .slider_content {
