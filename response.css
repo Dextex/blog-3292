@@ -420,4 +420,7 @@
     .hero-section {
         background-position: 60%;
     }
+    .mobile-control-wrapper {
+        gap: 32px;
+    }
 }
