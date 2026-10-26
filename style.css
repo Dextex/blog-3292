@@ -172,6 +172,7 @@ main {
     flex-direction: column;
     gap: 88px;
     width: 100%;
+    align-items: center;
 }
 
 .describtion-text {
