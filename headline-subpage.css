@@ -4,26 +4,29 @@
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    max-width: 1440px;
+    height: auto;
 }
 
 .left-content-wrapper {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 40px;
 }
 
 .left-content {
     display: flex;
     flex-direction: column;
-
     align-items: center;
     justify-self: center;
-    align-items: center;
-    justify-self: center;
+    gap: 40px;
 }
 
 .befor-headline {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     width: 100%;
     max-width: 902px;
 }
@@ -41,7 +44,7 @@
     font-family: "Arima", system-ui;
     font-size: 64px;
     font-weight: 700;
-    white-space: wrap;
+    white-space: nowrap;
     color: #f1c953;
     white-space: wrap;
     margin-block-start: 0em;
@@ -50,7 +53,7 @@
 
 .headline_description {
     width: 100%;
-    width: 100%;
+    max-width: 902px;
 }
 
 .headline_description > p {
@@ -60,37 +63,43 @@
     font-size: 28px;
     line-height: 120%;
     letter-spacing: 0%;
+    text-align: start;
     display: flex;
     color: #54370d;
 }
 
 .media-info {
+    width: 902px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    gap: 20px;
+}
+.info-top {
     display: flex;
     flex-direction: row;
     justify-self: center;
     align-items: center;
-    gap: 10px;
+    align-content: space-between;
+    gap: 20px;
 }
-
 .info-bottom {
     display: flex;
     flex-direction: row;
     justify-self: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+    align-content: space-between;
 }
 
 .calendar-month {
     display: flex;
     flex-direction: row;
     gap: 2px;
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
 }
 
 .calendar-month > img {
-    /*max-width: 16px;*/
     width: 16px;
     height: 18px;
 }
@@ -109,7 +118,7 @@
 
 .calendar-time > img {
     width: 20px;
-    height: 7px;
+    height: 9px;
     align-items: center;
     align-self: center;
 }
@@ -150,58 +159,8 @@
     font-family: "Palanquin", sans-serif;
     font-size: 16px;
 }
-.calendar-time {
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
-}
-.calendar-time > img {
-    max-width: 20px;
-    height: 7px;
-    align-items: center;
-    align-self: center;
-}
-.calendar-time > p {
-    font-size: 16px;
-}
-
-.calendar-read {
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
-}
-.calendar-read > img {
-    width: 20px;
-    height: 14px;
-}
-.calendar-read > p {
-    font-size: 16px;
-}
-
-.calendar-share {
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
-}
-.calendar-share > img {
-    width: 16px;
-    height: 18px;
-}
-.calendar-share > p {
-    font-size: 16px;
-}
 
 .rigth-content {
-    /*width: 299px;
-  height: 408px;*/
-    gap: 16px;
-    border-radius: 30px;
-    padding: 16px;
-    background-color: #4ea48733;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: right;
     /*width: 299px;
   height: 408px;*/
     gap: 16px;
@@ -217,22 +176,15 @@
 .avatar-content {
     width: 120px;
     height: 120px;
-    width: 120px;
-    height: 120px;
 }
 
 .descritpion-card {
     width: 240px;
     height: 221px;
-    width: 240px;
-    height: 221px;
 }
 
 .autor-content {
-    width: 240px;
-    height: 38px;
-    width: 240px;
-    height: 38px;
+    max-width: 240px;
 }
 
 .autor-content > h2 {
@@ -240,23 +192,13 @@
     font-family: "Arima", system-ui;
     font-size: 24px;
     font-weight: 700;
-    color: #54370d;
-    font-family: "Arima", system-ui;
-    font-size: 24px;
-    font-weight: 700;
 
     display: flex;
     justify-content: center;
     text-align: center;
     justify-items: center;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    justify-items: center;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+    /*margin-block-start: 0em;
+  margin-block-end: 0em;*/
 }
 
 .autor-content > h3 {
@@ -268,15 +210,13 @@
     display: flex;
     justify-content: center;
     justify-items: center;
-    text-align: left;
+    text-align: center;
     margin-bottom: 15px;
     margin-top: -8px;
-    margin-block-end: 0em;
+    /*margin-block-end: 0em;*/
 }
 
 .about-autor {
-    width: 240px;
-    height: 171px;
     width: 240px;
     height: 171px;
 }
@@ -287,15 +227,10 @@
     font-size: 16px;
     font-weight: 400;
     color: #54370d;
-    font-family: "Palanquin", sans-serif;
-    display: flex;
-    font-size: 16px;
-    font-weight: 400;
-    color: #54370d;
 }
 
 .subheadline_description {
-    width: 100%;
+    max-width: 1200px;
 }
 
 .subheadline_description > p {
