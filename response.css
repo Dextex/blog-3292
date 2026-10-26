@@ -10,6 +10,9 @@
         padding-bottom: 80px;
         padding-top: 80px;
     }
+    .hero-section {
+        padding: 0px max(120px, calc(50% - 720px));
+    }
 }
 @media screen and (min-width: 861px) {
     .mobile-Control {
@@ -78,11 +81,27 @@
         padding: 30px 60px 30px 60px;
     }
 }
+@media screen and (min-width: 861px) and (max-width: 1150px) {
+    .bagde-wrapper {
+        left: 18%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 860px) {
+    .bagde-wrapper {
+        left: 45%;
+    }
+}
 
 @media screen and (min-width: 481px) and (max-width: 860px) {
+    .headline-wrapper {
+        display: none;
+    }
     .landing-content {
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .content-box {
+        height: 380px;
     }
     main {
         padding-top: 30px;
@@ -115,6 +134,9 @@
     }
 }
 @media screen and (max-width: 675px) {
+    .headline-wrapper {
+        display: none;
+    }
     .landing-content {
         padding-left: 15px;
         padding-right: 15px;
@@ -362,5 +384,31 @@
     .corousal-paragraph-2 {
         margin-left: 0px;
         padding-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 541px) and (max-width: 660px) {
+    .bagde-wrapper {
+        left: 55%;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 540px) {
+    .bagde-wrapper {
+        left: 55%;
+    }
+    .content-box {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 399px) {
+    .bagde-wrapper {
+        left: 70%;
+    }
+    .content-box {
+        height: 300px;
+    }
+    .hero-section {
+        background-position: 60%;
     }
 }
