@@ -111,6 +111,8 @@
         display: none;
     }
     .mobile-Control {
+        position: sticky;
+        bottom: 0px;
         display: block;
     }
     header {
@@ -190,7 +192,9 @@
         display: none;
     }
     .mobile-Control {
+        bottom: 0px;
         display: block;
+        position: sticky;
     }
     header {
         justify-content: center;
@@ -246,6 +250,11 @@
         gap: 16px;
         padding: 12px 13px;
     }
+    .mobile-Control {
+        bottom: 0px;
+        position: sticky;
+    }
+
     .slider_content {
         width: 240px;
         top: 100px;

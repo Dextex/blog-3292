@@ -178,14 +178,13 @@
         border: none;
         border-bottom: 2px solid #000000;
         display: flex;
-        align-self: center;
+
         justify-self: center;
     }
 
     .my-help {
         display: flex;
         align-self: center;
-        justify-self: center;
     }
     .input-help {
         width: 338px;
@@ -292,14 +291,12 @@
         border: none;
         border-bottom: 2px solid #000000;
         display: flex;
-        align-self: center;
         justify-self: center;
     }
 
     .my-help {
         display: flex;
         align-self: center;
-        justify-self: center;
     }
     .input-help {
         width: 300px;
